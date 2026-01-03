@@ -1,0 +1,5980 @@
+{
+    "mpr": [
+        {
+            "index": 230001,
+            "full_index": "230001K",
+            "name": "AAKESON S.",
+            "group": "E1"
+        },
+        {
+            "index": 230002,
+            "full_index": "230002N",
+            "name": "ABAIYAN R.",
+            "group": "E1"
+        },
+        {
+            "index": 230003,
+            "full_index": "230003T",
+            "name": "ABDULLA N.",
+            "group": "E1"
+        },
+        {
+            "index": 230004,
+            "full_index": "230004X",
+            "name": "ABEYGUNAWARDANE R.L.O.R.",
+            "group": "E1"
+        },
+        {
+            "index": 230005,
+            "full_index": "230005C",
+            "name": "ABEYKOON S.W.",
+            "group": "E1"
+        },
+        {
+            "index": 230006,
+            "full_index": "230006F",
+            "name": "ABEYRATHNE H.B.T.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230007,
+            "full_index": "230007J",
+            "name": "ABEYSEKARA G.L.M.P.",
+            "group": "E1"
+        },
+        {
+            "index": 230008,
+            "full_index": "230008M",
+            "name": "ABEYSINGHE A.L.",
+            "group": "E1"
+        },
+        {
+            "index": 230009,
+            "full_index": "230009R",
+            "name": "ABEYSIRIGUNAWARDANA K.K.",
+            "group": "E1"
+        },
+        {
+            "index": 230010,
+            "full_index": "230010L",
+            "name": "ABEYSUNDARA KNB",
+            "group": "E1"
+        },
+        {
+            "index": 230011,
+            "full_index": "230011P",
+            "name": "ABEYWARDANA S.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230012,
+            "full_index": "230012U",
+            "name": "ABEYWARDHANA T.C.W.",
+            "group": "E1"
+        },
+        {
+            "index": 230013,
+            "full_index": "230013A",
+            "name": "ABEYWARNA D.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230014,
+            "full_index": "230014D",
+            "name": "ABIRAM C.",
+            "group": "E1"
+        },
+        {
+            "index": 230015,
+            "full_index": "230015G",
+            "name": "ABISHEK F.A.",
+            "group": "E1"
+        },
+        {
+            "index": 230016,
+            "full_index": "230016K",
+            "name": "ABISHEK L.",
+            "group": "E1"
+        },
+        {
+            "index": 230017,
+            "full_index": "230017N",
+            "name": "ADHIKARI A.H.C.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230018,
+            "full_index": "230018T",
+            "name": "ADIKARAM D.M.G.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230019,
+            "full_index": "230019X",
+            "name": "ADIKARI A.M.L.A.",
+            "group": "E1"
+        },
+        {
+            "index": 230020,
+            "full_index": "230020R",
+            "name": "AHAMED A.M.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230021,
+            "full_index": "230021V",
+            "name": "AHAMED H.Y.",
+            "group": "E1"
+        },
+        {
+            "index": 230022,
+            "full_index": "230022B",
+            "name": "AHAMED M.A.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230023,
+            "full_index": "230023E",
+            "name": "AHAMED M.J.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230024,
+            "full_index": "230024H",
+            "name": "AHAMED M.M.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230025,
+            "full_index": "230025L",
+            "name": "AHAMED M.U.A.",
+            "group": "E1"
+        },
+        {
+            "index": 230026,
+            "full_index": "230026P",
+            "name": "AHAMED M.U.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230027,
+            "full_index": "230027U",
+            "name": "AHMEDH M.R.R.",
+            "group": "E1"
+        },
+        {
+            "index": 230028,
+            "full_index": "230028A",
+            "name": "AKARSHA S.A.C.",
+            "group": "E1"
+        },
+        {
+            "index": 230029,
+            "full_index": "230029D",
+            "name": "ALUTHGE Y.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230030,
+            "full_index": "230030X",
+            "name": "AMANA M.F.F.",
+            "group": "E1"
+        },
+        {
+            "index": 230031,
+            "full_index": "230031C",
+            "name": "AMANTHA H.D.K.N.",
+            "group": "E1"
+        },
+        {
+            "index": 230032,
+            "full_index": "230032F",
+            "name": "AMARAKOON A.M.D.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230033,
+            "full_index": "230033J",
+            "name": "AMARASINGHE A.A.D.K.",
+            "group": "E1"
+        },
+        {
+            "index": 230034,
+            "full_index": "230034M",
+            "name": "AMARASINGHE A.A.D.P.",
+            "group": "E1"
+        },
+        {
+            "index": 230035,
+            "full_index": "230035R",
+            "name": "AMARASINGHE A.M.K.P.",
+            "group": "E1"
+        },
+        {
+            "index": 230036,
+            "full_index": "230036V",
+            "name": "AMARASINGHE P.",
+            "group": "E1"
+        },
+        {
+            "index": 230037,
+            "full_index": "230037B",
+            "name": "AMARASINGHE Y.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230038,
+            "full_index": "230038E",
+            "name": "AMARATHUNGE A.M.N.L.",
+            "group": "E1"
+        },
+        {
+            "index": 230039,
+            "full_index": "230039H",
+            "name": "AMBALANGODAGE S.A.",
+            "group": "E1"
+        },
+        {
+            "index": 230040,
+            "full_index": "230040D",
+            "name": "AMBROSE S.K.",
+            "group": "E1"
+        },
+        {
+            "index": 230041,
+            "full_index": "230041G",
+            "name": "ANDERSON S.H.",
+            "group": "E1"
+        },
+        {
+            "index": 230042,
+            "full_index": "230042K",
+            "name": "ANDRAHENNADI N.J.",
+            "group": "E1"
+        },
+        {
+            "index": 230043,
+            "full_index": "230043N",
+            "name": "ANGEESA R.P.T.",
+            "group": "E1"
+        },
+        {
+            "index": 230044,
+            "full_index": "230044T",
+            "name": "ANOJ J.R.",
+            "group": "E1"
+        },
+        {
+            "index": 230045,
+            "full_index": "230045X",
+            "name": "ANTHONY C.S.B.",
+            "group": "E1"
+        },
+        {
+            "index": 230046,
+            "full_index": "230046C",
+            "name": "ANURADHA S.G.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230047,
+            "full_index": "230047F",
+            "name": "ANURADHA S.M.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230048,
+            "full_index": "230048J",
+            "name": "ANUSAN K.",
+            "group": "E1"
+        },
+        {
+            "index": 230049,
+            "full_index": "230049M",
+            "name": "APISHEGAN S.",
+            "group": "E1"
+        },
+        {
+            "index": 230050,
+            "full_index": "230050H",
+            "name": "APPUHAMY W.G.A.S.N.",
+            "group": "E1"
+        },
+        {
+            "index": 230051,
+            "full_index": "230051L",
+            "name": "ARACHCHI A.D.I.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230052,
+            "full_index": "230052P",
+            "name": "ARACHCHIGE M. A. D. T. S.",
+            "group": "E1"
+        },
+        {
+            "index": 230053,
+            "full_index": "230053U",
+            "name": "ARANAYAKE A.D.L.",
+            "group": "E1"
+        },
+        {
+            "index": 230054,
+            "full_index": "230054A",
+            "name": "ARHAM M.S.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230055,
+            "full_index": "230055D",
+            "name": "ARIYADASA S.M.S.V.",
+            "group": "E1"
+        },
+        {
+            "index": 230056,
+            "full_index": "230056G",
+            "name": "ARIYARATHNA R.H.P.A.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230057,
+            "full_index": "230057K",
+            "name": "ARIYASINGHE H.A.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230058,
+            "full_index": "230058N",
+            "name": "AROSHANA H.A.P.",
+            "group": "E1"
+        },
+        {
+            "index": 230059,
+            "full_index": "230059T",
+            "name": "ARUNIYA R.",
+            "group": "E1"
+        },
+        {
+            "index": 230060,
+            "full_index": "230060M",
+            "name": "ASMA AR",
+            "group": "E1"
+        },
+        {
+            "index": 230061,
+            "full_index": "230061R",
+            "name": "ATHTHANAYAKE A.M.D.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230062,
+            "full_index": "230062V",
+            "name": "ATHTHANAYAKE A.M.R.N.",
+            "group": "E1"
+        },
+        {
+            "index": 230063,
+            "full_index": "230063B",
+            "name": "ATHUKORALA U.R.",
+            "group": "E1"
+        },
+        {
+            "index": 230064,
+            "full_index": "230064E",
+            "name": "ATUGEDARA A.D.I.",
+            "group": "E1"
+        },
+        {
+            "index": 230065,
+            "full_index": "230065H",
+            "name": "AYANAJA N.B.G.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230066,
+            "full_index": "230066L",
+            "name": "AYODYA J.A.J.",
+            "group": "E1"
+        },
+        {
+            "index": 230067,
+            "full_index": "230067P",
+            "name": "BALAHEWA S.T.",
+            "group": "E1"
+        },
+        {
+            "index": 230068,
+            "full_index": "230068U",
+            "name": "BALANGODA G.D.M.V.",
+            "group": "E1"
+        },
+        {
+            "index": 230069,
+            "full_index": "230069A",
+            "name": "BALASOORIYA B.M.I.U.",
+            "group": "E1"
+        },
+        {
+            "index": 230070,
+            "full_index": "230070T",
+            "name": "BALASOORIYA B.R.B.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230071,
+            "full_index": "230071X",
+            "name": "BALASOORIYA U.B.M.T.S.B.",
+            "group": "E1"
+        },
+        {
+            "index": 230072,
+            "full_index": "230072C",
+            "name": "BAMBARAGAMA H.M.T.M.",
+            "group": "E1"
+        },
+        {
+            "index": 230073,
+            "full_index": "230073F",
+            "name": "BANDARA B.W.C.J.",
+            "group": "E1"
+        },
+        {
+            "index": 230074,
+            "full_index": "230074J",
+            "name": "BANDARA H.Y.W.",
+            "group": "E1"
+        },
+        {
+            "index": 230075,
+            "full_index": "230075M",
+            "name": "BANDARA K.G.C.",
+            "group": "E1"
+        },
+        {
+            "index": 230076,
+            "full_index": "230076R",
+            "name": "BANDARA K.G.P.Y.",
+            "group": "E1"
+        },
+        {
+            "index": 230077,
+            "full_index": "230077V",
+            "name": "BANDARA K.M.N.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230078,
+            "full_index": "230078B",
+            "name": "BANDARA L.H.M.M.D.",
+            "group": "E1"
+        },
+        {
+            "index": 230079,
+            "full_index": "230079E",
+            "name": "BANDARA R.M.C.T.",
+            "group": "E1"
+        },
+        {
+            "index": 230080,
+            "full_index": "230080A",
+            "name": "BANDARA R.M.P.S.",
+            "group": "E1"
+        },
+        {
+            "index": 230081,
+            "full_index": "230081D",
+            "name": "BANDARA S.A.N.K.",
+            "group": "E1"
+        },
+        {
+            "index": 230082,
+            "full_index": "230082G",
+            "name": "BANDARA W.D.A.C.",
+            "group": "E1"
+        },
+        {
+            "index": 230083,
+            "full_index": "230083K",
+            "name": "BANDARA W.D.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230084,
+            "full_index": "230084N",
+            "name": "BANDARA W.M.L.G.",
+            "group": "E2"
+        },
+        {
+            "index": 230085,
+            "full_index": "230085T",
+            "name": "BARWIN S.",
+            "group": "E2"
+        },
+        {
+            "index": 230086,
+            "full_index": "230086X",
+            "name": "BASNAYAKA B.A.L.G.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230087,
+            "full_index": "230087C",
+            "name": "BASNAYAKA B.M.K.V.",
+            "group": "E2"
+        },
+        {
+            "index": 230088,
+            "full_index": "230088F",
+            "name": "BAZZAM R.A.",
+            "group": "E2"
+        },
+        {
+            "index": 230089,
+            "full_index": "230089J",
+            "name": "BEDDAWALA B.G.K.P.",
+            "group": "E2"
+        },
+        {
+            "index": 230090,
+            "full_index": "230090E",
+            "name": "BHAGYA T.G.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230091,
+            "full_index": "230091H",
+            "name": "BIRAJITH K.",
+            "group": "E2"
+        },
+        {
+            "index": 230092,
+            "full_index": "230092L",
+            "name": "BOSWIN A.",
+            "group": "E2"
+        },
+        {
+            "index": 230093,
+            "full_index": "230093P",
+            "name": "BUDDHADASA G.M.D.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230094,
+            "full_index": "230094U",
+            "name": "BULAGALA D.W.K.G.",
+            "group": "E2"
+        },
+        {
+            "index": 230095,
+            "full_index": "230095A",
+            "name": "CHAMANGALA D.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230096,
+            "full_index": "230096D",
+            "name": "CHAMOD M.D.A.",
+            "group": "E2"
+        },
+        {
+            "index": 230097,
+            "full_index": "230097G",
+            "name": "CHAMUDI G.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230098,
+            "full_index": "230098K",
+            "name": "CHAMUDITHA B.A.S.K.",
+            "group": "E2"
+        },
+        {
+            "index": 230099,
+            "full_index": "230099N",
+            "name": "CHANDIRA K.B.H.",
+            "group": "E2"
+        },
+        {
+            "index": 230100,
+            "full_index": "230100M",
+            "name": "CHANDRAKUMARA H.A.D.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230101,
+            "full_index": "230101R",
+            "name": "CHANDRASIRI J.M.T.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230102,
+            "full_index": "230102V",
+            "name": "CHARINDITH A.J.R.J.",
+            "group": "E2"
+        },
+        {
+            "index": 230103,
+            "full_index": "230103B",
+            "name": "CHARUKA A.A.K.",
+            "group": "E2"
+        },
+        {
+            "index": 230104,
+            "full_index": "230104E",
+            "name": "CHATHURANGA R.M.R.",
+            "group": "E2"
+        },
+        {
+            "index": 230105,
+            "full_index": "230105H",
+            "name": "CHINTHAKA M.K.M.G.",
+            "group": "E2"
+        },
+        {
+            "index": 230106,
+            "full_index": "230106L",
+            "name": "CHITHRABHANU M.A.P.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230107,
+            "full_index": "230107P",
+            "name": "CHRISTMIN R.A.I.",
+            "group": "E2"
+        },
+        {
+            "index": 230108,
+            "full_index": "230108U",
+            "name": "COLOMBAGE D.M.",
+            "group": "E2"
+        },
+        {
+            "index": 230109,
+            "full_index": "230109A",
+            "name": "COLOMBAVIDANAGE M.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230110,
+            "full_index": "230110T",
+            "name": "COSTA W.H.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230111,
+            "full_index": "230111X",
+            "name": "DABARERA G.D.M.",
+            "group": "E2"
+        },
+        {
+            "index": 230112,
+            "full_index": "230112C",
+            "name": "DAISHIKA K.S.H.",
+            "group": "E2"
+        },
+        {
+            "index": 230113,
+            "full_index": "230113F",
+            "name": "DANANJI M.R.",
+            "group": "E2"
+        },
+        {
+            "index": 230114,
+            "full_index": "230114J",
+            "name": "DASANAYAKA D.M.N.H.",
+            "group": "E2"
+        },
+        {
+            "index": 230115,
+            "full_index": "230115M",
+            "name": "DASSANAYAKE W.M.G.S.P.",
+            "group": "E2"
+        },
+        {
+            "index": 230116,
+            "full_index": "230116R",
+            "name": "DAYANANDA R.D.H.K.",
+            "group": "E2"
+        },
+        {
+            "index": 230117,
+            "full_index": "230117V",
+            "name": "DAYARATHNA T.D.H.L.",
+            "group": "E2"
+        },
+        {
+            "index": 230118,
+            "full_index": "230118B",
+            "name": "DAYASENA S.A.N.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230119,
+            "full_index": "230119E",
+            "name": "DAYAWANSHA W.M.H.W.M.P.",
+            "group": "E2"
+        },
+        {
+            "index": 230120,
+            "full_index": "230120A",
+            "name": "DE ALWIS E.D.T.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230121,
+            "full_index": "230121D",
+            "name": "DE MEL D.J.",
+            "group": "E2"
+        },
+        {
+            "index": 230122,
+            "full_index": "230122G",
+            "name": "DE SILVA A.I.V.",
+            "group": "E2"
+        },
+        {
+            "index": 230123,
+            "full_index": "230123K",
+            "name": "DE SILVA B.K.P.",
+            "group": "E2"
+        },
+        {
+            "index": 230124,
+            "full_index": "230124N",
+            "name": "DE SILVA D.I.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230125,
+            "full_index": "230125T",
+            "name": "DE SILVA L.R.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230126,
+            "full_index": "230126X",
+            "name": "DE SILVA N.N.B.",
+            "group": "E2"
+        },
+        {
+            "index": 230127,
+            "full_index": "230127C",
+            "name": "DELDENIYA M.B.",
+            "group": "E2"
+        },
+        {
+            "index": 230128,
+            "full_index": "230128F",
+            "name": "DENIPITIYA D.L.A.L.",
+            "group": "E2"
+        },
+        {
+            "index": 230129,
+            "full_index": "230129J",
+            "name": "DESHAN P.A.M.",
+            "group": "E2"
+        },
+        {
+            "index": 230130,
+            "full_index": "230130E",
+            "name": "DESHAN W.U.",
+            "group": "E2"
+        },
+        {
+            "index": 230131,
+            "full_index": "230131H",
+            "name": "DESHAPRIYA D.L.S.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230132,
+            "full_index": "230132L",
+            "name": "DESITHA S.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230133,
+            "full_index": "230133P",
+            "name": "DEVATHARAN T.",
+            "group": "E2"
+        },
+        {
+            "index": 230134,
+            "full_index": "230134U",
+            "name": "DEVINDU W.G.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230135,
+            "full_index": "230135A",
+            "name": "DEWDUNIKA D.R.K.W.M.V.V.",
+            "group": "E2"
+        },
+        {
+            "index": 230136,
+            "full_index": "230136D",
+            "name": "DEWMINI G.A.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230137,
+            "full_index": "230137G",
+            "name": "DEWRANGA A.K.R.",
+            "group": "E2"
+        },
+        {
+            "index": 230138,
+            "full_index": "230138K",
+            "name": "DHANANJAYA K.T.G.T.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230139,
+            "full_index": "230139N",
+            "name": "DHANAPALA D.H.N.",
+            "group": "E2"
+        },
+        {
+            "index": 230140,
+            "full_index": "230140J",
+            "name": "DHARMAKEERTHI P.K.G.C.L.",
+            "group": "E2"
+        },
+        {
+            "index": 230141,
+            "full_index": "230141M",
+            "name": "DHARMARATHNE J.I.",
+            "group": "E2"
+        },
+        {
+            "index": 230142,
+            "full_index": "230142R",
+            "name": "DIAS K.",
+            "group": "E2"
+        },
+        {
+            "index": 230143,
+            "full_index": "230143V",
+            "name": "DIKKUMBURA H.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230144,
+            "full_index": "230144B",
+            "name": "DILAKSHAN S.",
+            "group": "E2"
+        },
+        {
+            "index": 230145,
+            "full_index": "230145E",
+            "name": "DILHAN W.A.",
+            "group": "E2"
+        },
+        {
+            "index": 230146,
+            "full_index": "230146H",
+            "name": "DILHANA H.P.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230147,
+            "full_index": "230147L",
+            "name": "DILHARA D.S.",
+            "group": "E2"
+        },
+        {
+            "index": 230148,
+            "full_index": "230148P",
+            "name": "DILMIN A.K.S.",
+            "group": "E2"
+        },
+        {
+            "index": 230149,
+            "full_index": "230149U",
+            "name": "DILMITH GS",
+            "group": "E2"
+        },
+        {
+            "index": 230150,
+            "full_index": "230150N",
+            "name": "DILSHAN A.D.L.",
+            "group": "E2"
+        },
+        {
+            "index": 230151,
+            "full_index": "230151T",
+            "name": "DINAPURA H.H.S.",
+            "group": "E2"
+        },
+        {
+            "index": 230152,
+            "full_index": "230152X",
+            "name": "DISANAYAKA D.M.S.G.",
+            "group": "E2"
+        },
+        {
+            "index": 230153,
+            "full_index": "230153C",
+            "name": "DISANAYAKA K.T.K.",
+            "group": "E2"
+        },
+        {
+            "index": 230154,
+            "full_index": "230154F",
+            "name": "DISSANAYAKA D.M.A.C.",
+            "group": "E2"
+        },
+        {
+            "index": 230155,
+            "full_index": "230155J",
+            "name": "DISSANAYAKA D.M.D.P.",
+            "group": "E2"
+        },
+        {
+            "index": 230156,
+            "full_index": "230156M",
+            "name": "DISSANAYAKA D.M.T.R.",
+            "group": "E2"
+        },
+        {
+            "index": 230157,
+            "full_index": "230157R",
+            "name": "DISSANAYAKA W.D.M.A.D.",
+            "group": "E2"
+        },
+        {
+            "index": 230158,
+            "full_index": "230158V",
+            "name": "DISSANAYAKE D.M.S.",
+            "group": "E2"
+        },
+        {
+            "index": 230159,
+            "full_index": "230159B",
+            "name": "DISSANAYAKE G.R.G.K.",
+            "group": "E2"
+        },
+        {
+            "index": 230160,
+            "full_index": "230160U",
+            "name": "DISSANAYAKE G.T.S.",
+            "group": "E2"
+        },
+        {
+            "index": 230161,
+            "full_index": "230161A",
+            "name": "DISSANAYAKE K.M.R.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230162,
+            "full_index": "230162D",
+            "name": "DISSANAYAKE L.M.",
+            "group": "E2"
+        },
+        {
+            "index": 230163,
+            "full_index": "230163{?}",
+            "name": "UNKNOWN",
+            "group": "E2"
+        },
+        {
+            "index": 230164,
+            "full_index": "230164K",
+            "name": "DISSANAYAKE R.K.T.",
+            "group": "E2"
+        },
+        {
+            "index": 230165,
+            "full_index": "230165N",
+            "name": "DISSANAYAKE T.K.D.Y.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230166,
+            "full_index": "230166T",
+            "name": "DIVYANGI W.A.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230167,
+            "full_index": "230167X",
+            "name": "DONDEENU W.A.A.I.M.S.R.S.P.",
+            "group": "E3"
+        },
+        {
+            "index": 230168,
+            "full_index": "230168C",
+            "name": "E.THILAKSAN",
+            "group": "E3"
+        },
+        {
+            "index": 230169,
+            "full_index": "230169F",
+            "name": "EDIRISINGHE E.A.D.C.I.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230170,
+            "full_index": "230170B",
+            "name": "EKANAYAKE T.N.D.S.W.",
+            "group": "E3"
+        },
+        {
+            "index": 230171,
+            "full_index": "230171E",
+            "name": "ELAPATHA C.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230172,
+            "full_index": "230172H",
+            "name": "EMILIANU R.U.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230173,
+            "full_index": "230173L",
+            "name": "ERANDA V.P.W.",
+            "group": "E3"
+        },
+        {
+            "index": 230174,
+            "full_index": "230174P",
+            "name": "ERANDI H.G.U.",
+            "group": "E3"
+        },
+        {
+            "index": 230175,
+            "full_index": "230175U",
+            "name": "ERANGA W.A.O.",
+            "group": "E3"
+        },
+        {
+            "index": 230176,
+            "full_index": "230176A",
+            "name": "FAROOK T.F.",
+            "group": "E3"
+        },
+        {
+            "index": 230177,
+            "full_index": "230177D",
+            "name": "FARSHID M.P.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230178,
+            "full_index": "230178G",
+            "name": "FERNANDO C.P.R.T.",
+            "group": "E3"
+        },
+        {
+            "index": 230179,
+            "full_index": "230179K",
+            "name": "FERNANDO G.S.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230180,
+            "full_index": "230180F",
+            "name": "FERNANDO H.M.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230181,
+            "full_index": "230181J",
+            "name": "FERNANDO K.N.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230182,
+            "full_index": "230182M",
+            "name": "FERNANDO K.S.N.G.",
+            "group": "E3"
+        },
+        {
+            "index": 230183,
+            "full_index": "230183R",
+            "name": "FERNANDO LTJ",
+            "group": "E3"
+        },
+        {
+            "index": 230184,
+            "full_index": "230184V",
+            "name": "FERNANDO R.T.A.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230185,
+            "full_index": "230185B",
+            "name": "FERNANDO S.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230186,
+            "full_index": "230186E",
+            "name": "FERNANDO W.H.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230187,
+            "full_index": "230187H",
+            "name": "FERNANDO W.S.C.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230188,
+            "full_index": "230188L",
+            "name": "FERNANDO W.T.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230189,
+            "full_index": "230189P",
+            "name": "FERNANDO W.W.N.H.",
+            "group": "E3"
+        },
+        {
+            "index": 230190,
+            "full_index": "230190K",
+            "name": "G.JANUSHIKHA",
+            "group": "E3"
+        },
+        {
+            "index": 230191,
+            "full_index": "230191N",
+            "name": "GAJASINGHE G.M.C.R.",
+            "group": "E3"
+        },
+        {
+            "index": 230192,
+            "full_index": "230192T",
+            "name": "GALAGAMAARACHCHI G.A.D.M.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230193,
+            "full_index": "230193X",
+            "name": "GAMAGE G.W.D.T.J.",
+            "group": "E3"
+        },
+        {
+            "index": 230194,
+            "full_index": "230194C",
+            "name": "GAMAGE N.G.T.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230195,
+            "full_index": "230195F",
+            "name": "GAMAGE SK",
+            "group": "E3"
+        },
+        {
+            "index": 230196,
+            "full_index": "230196J",
+            "name": "GARAVI W.A.I.",
+            "group": "E3"
+        },
+        {
+            "index": 230197,
+            "full_index": "230197M",
+            "name": "GARUSINGHE S.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230198,
+            "full_index": "230198R",
+            "name": "GEEMUNI T.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230199,
+            "full_index": "230199V",
+            "name": "GENKESWARAN N.",
+            "group": "E3"
+        },
+        {
+            "index": 230200,
+            "full_index": "230200U",
+            "name": "GIMHAN G.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230201,
+            "full_index": "230201A",
+            "name": "GIMHAN M.D.C.Y.",
+            "group": "E3"
+        },
+        {
+            "index": 230202,
+            "full_index": "230202D",
+            "name": "GINIGE D.N.",
+            "group": "E3"
+        },
+        {
+            "index": 230203,
+            "full_index": "230203G",
+            "name": "GUNARATHNA K.T.M.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230204,
+            "full_index": "230204K",
+            "name": "GUNARATHNE W.M.J.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230205,
+            "full_index": "230205N",
+            "name": "GUNARATNE A.B.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230206,
+            "full_index": "230206T",
+            "name": "GUNASEKARA B.A.T.L.",
+            "group": "E3"
+        },
+        {
+            "index": 230207,
+            "full_index": "230207X",
+            "name": "GUNASEKARA H.K.B.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230208,
+            "full_index": "230208C",
+            "name": "GUNASEKARA H.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230209,
+            "full_index": "230209F",
+            "name": "GUNASEKARA H.M.Y.J.",
+            "group": "E3"
+        },
+        {
+            "index": 230210,
+            "full_index": "230210B",
+            "name": "GUNASEKARA H.P.",
+            "group": "E3"
+        },
+        {
+            "index": 230211,
+            "full_index": "230211E",
+            "name": "GUNASEKARA K.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230212,
+            "full_index": "230212H",
+            "name": "GUNASEKARA L.U.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230213,
+            "full_index": "230213L",
+            "name": "GUNASEKARA T.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230214,
+            "full_index": "230214P",
+            "name": "GUNATHILAKA G.R.M.J.",
+            "group": "E3"
+        },
+        {
+            "index": 230215,
+            "full_index": "230215U",
+            "name": "GUNATHILAKA S.N.",
+            "group": "E3"
+        },
+        {
+            "index": 230216,
+            "full_index": "230216A",
+            "name": "GUNATHILAKE B.M.P.",
+            "group": "E3"
+        },
+        {
+            "index": 230217,
+            "full_index": "230217D",
+            "name": "GUNATHILAKE W.V.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230218,
+            "full_index": "230218G",
+            "name": "GUNATHUNGA U.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230219,
+            "full_index": "230219K",
+            "name": "GUNAWARDENA H.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230220,
+            "full_index": "230220F",
+            "name": "GUNAWARDHANA A.A.A.S.",
+            "group": "E3"
+        },
+        {
+            "index": 230221,
+            "full_index": "230221J",
+            "name": "GUNAWEERA N.",
+            "group": "E3"
+        },
+        {
+            "index": 230222,
+            "full_index": "230222M",
+            "name": "GURUSINGHE C.R.",
+            "group": "E3"
+        },
+        {
+            "index": 230223,
+            "full_index": "230223R",
+            "name": "HEWAWASAM H.R.L.",
+            "group": "E3"
+        },
+        {
+            "index": 230224,
+            "full_index": "230224V",
+            "name": "HAKAM M.R.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230225,
+            "full_index": "230225B",
+            "name": "HAMEES A.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230226,
+            "full_index": "230226E",
+            "name": "HANSAJA J.R.A.I.",
+            "group": "E3"
+        },
+        {
+            "index": 230227,
+            "full_index": "230227H",
+            "name": "HANSANA K.G.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230228,
+            "full_index": "230228L",
+            "name": "HANSIKA W.A.K.",
+            "group": "E3"
+        },
+        {
+            "index": 230229,
+            "full_index": "230229P",
+            "name": "HANSINDU M.M.A.D.",
+            "group": "E3"
+        },
+        {
+            "index": 230230,
+            "full_index": "230230K",
+            "name": "HAPUARACHCHI W.A.N.W.",
+            "group": "E3"
+        },
+        {
+            "index": 230231,
+            "full_index": "230231N",
+            "name": "HARISCHANDRA P.H.U.",
+            "group": "E3"
+        },
+        {
+            "index": 230232,
+            "full_index": "230232T",
+            "name": "HARSHAN R.",
+            "group": "E3"
+        },
+        {
+            "index": 230233,
+            "full_index": "230233X",
+            "name": "HASARANGA H.L.K.",
+            "group": "E3"
+        },
+        {
+            "index": 230234,
+            "full_index": "230234C",
+            "name": "HATHEEM M.R.",
+            "group": "E3"
+        },
+        {
+            "index": 230235,
+            "full_index": "230235F",
+            "name": "HATHURUSINGHE H.A.T.R.",
+            "group": "E3"
+        },
+        {
+            "index": 230236,
+            "full_index": "230236J",
+            "name": "HEMACHANDRA M.R.D.H.",
+            "group": "E3"
+        },
+        {
+            "index": 230237,
+            "full_index": "230237M",
+            "name": "HEMACHANDRA T.A.C.I.",
+            "group": "E3"
+        },
+        {
+            "index": 230238,
+            "full_index": "230238R",
+            "name": "HENDENIYA H.M.J.C.",
+            "group": "E3"
+        },
+        {
+            "index": 230239,
+            "full_index": "230239V",
+            "name": "HERATH H.M.A.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230240,
+            "full_index": "230240P",
+            "name": "HERATH H.M.D.N.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230241,
+            "full_index": "230241U",
+            "name": "HERATH H.M.K.K.",
+            "group": "E3"
+        },
+        {
+            "index": 230242,
+            "full_index": "230242A",
+            "name": "HERATH H.M.M.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230243,
+            "full_index": "230243D",
+            "name": "HERATH H.M.M.P.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230244,
+            "full_index": "230244G",
+            "name": "HERATH H.M.S.B.B.",
+            "group": "E3"
+        },
+        {
+            "index": 230245,
+            "full_index": "230245K",
+            "name": "HETTIARACHCHI H.B.A.",
+            "group": "E3"
+        },
+        {
+            "index": 230246,
+            "full_index": "230246N",
+            "name": "HEWARATHNA Y.M.",
+            "group": "E3"
+        },
+        {
+            "index": 230247,
+            "full_index": "230247T",
+            "name": "HEWAWASAM H.H.S.T.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230248,
+            "full_index": "230248X",
+            "name": "HIMASARA W.V.M.J.",
+            "group": "E4"
+        },
+        {
+            "index": 230249,
+            "full_index": "230249C",
+            "name": "HIPPALA H.M.C.W.",
+            "group": "E4"
+        },
+        {
+            "index": 230250,
+            "full_index": "230250V",
+            "name": "HIRUNIMA J.A.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230251,
+            "full_index": "230251B",
+            "name": "HIRUSHANI K.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230252,
+            "full_index": "230252E",
+            "name": "HIZAM Y.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230253,
+            "full_index": "230253H",
+            "name": "IFAZ M.I.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230254,
+            "full_index": "230254L",
+            "name": "IGALAGAMA K.A.C.",
+            "group": "E4"
+        },
+        {
+            "index": 230255,
+            "full_index": "230255P",
+            "name": "ILANGARATHNA E.D.M.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230256,
+            "full_index": "230256U",
+            "name": "ILANKOON I.M.M.K.B.",
+            "group": "E4"
+        },
+        {
+            "index": 230257,
+            "full_index": "230257A",
+            "name": "ILHAM M.I.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230258,
+            "full_index": "230258D",
+            "name": "IMADUWAGE O.N.H.",
+            "group": "E4"
+        },
+        {
+            "index": 230259,
+            "full_index": "230259G",
+            "name": "IMBULPITIYA B.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230260,
+            "full_index": "230260C",
+            "name": "INDUNIL N.A.A.I.",
+            "group": "E4"
+        },
+        {
+            "index": 230261,
+            "full_index": "230261F",
+            "name": "INDUWARA M.L.A.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230262,
+            "full_index": "230262J",
+            "name": "INDUWARA M.V.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230263,
+            "full_index": "230263M",
+            "name": "IZZATH M.N.M",
+            "group": "E4"
+        },
+        {
+            "index": 230264,
+            "full_index": "230264R",
+            "name": "JANURAJAH J.",
+            "group": "E4"
+        },
+        {
+            "index": 230265,
+            "full_index": "230265V",
+            "name": "JANUSHAN A.",
+            "group": "E4"
+        },
+        {
+            "index": 230266,
+            "full_index": "230266B",
+            "name": "JATHUNWATHTHA J.C.R.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230267,
+            "full_index": "230267E",
+            "name": "JATHUSAN B.",
+            "group": "E4"
+        },
+        {
+            "index": 230268,
+            "full_index": "230268H",
+            "name": "JAYAKODY J.A.C.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230269,
+            "full_index": "230269L",
+            "name": "JAYALAL R.H.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230270,
+            "full_index": "230270G",
+            "name": "JAYALATHGE R.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230271,
+            "full_index": "230271K",
+            "name": "JAYAMAHA J.H.S.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230272,
+            "full_index": "230272N",
+            "name": "JAYAMANNE J.M.A.N.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230273,
+            "full_index": "230273T",
+            "name": "JAYAMPATHI K.N.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230274,
+            "full_index": "230274X",
+            "name": "JAYARATNA G.P.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230275,
+            "full_index": "230275C",
+            "name": "JAYASEKARA A.S.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230276,
+            "full_index": "230276F",
+            "name": "JAYASEKARA N.A.S.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230277,
+            "full_index": "230277J",
+            "name": "JAYASEKARA U.I.",
+            "group": "E4"
+        },
+        {
+            "index": 230278,
+            "full_index": "230278M",
+            "name": "JAYASENA R.T.U.",
+            "group": "E4"
+        },
+        {
+            "index": 230279,
+            "full_index": "230279R",
+            "name": "JAYASINGHE E.A.T.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230280,
+            "full_index": "230280L",
+            "name": "JAYASINGHE J.A.P.R.",
+            "group": "E4"
+        },
+        {
+            "index": 230281,
+            "full_index": "230281P",
+            "name": "JAYASINGHE J.D.D.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230282,
+            "full_index": "230282U",
+            "name": "JAYASINGHE M.W.",
+            "group": "E4"
+        },
+        {
+            "index": 230283,
+            "full_index": "230283A",
+            "name": "JAYASINGHE N.Y.A.",
+            "group": "E4"
+        },
+        {
+            "index": 230284,
+            "full_index": "230284D",
+            "name": "JAYASINGHE S.M.M.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230285,
+            "full_index": "230285G",
+            "name": "JAYASINGHE T.A.",
+            "group": "E4"
+        },
+        {
+            "index": 230286,
+            "full_index": "230286K",
+            "name": "JAYASINGHE U.L.K.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230287,
+            "full_index": "230287N",
+            "name": "JAYASUNDARA J.M.T.R.B.",
+            "group": "E4"
+        },
+        {
+            "index": 230288,
+            "full_index": "230288T",
+            "name": "JAYASURIYA J.A.U.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230289,
+            "full_index": "230289X",
+            "name": "JAYATHILAKE H.D.N.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230290,
+            "full_index": "230290R",
+            "name": "JAYATHILAKE W.A.S.H.",
+            "group": "E4"
+        },
+        {
+            "index": 230291,
+            "full_index": "230291V",
+            "name": "JAYATHISSA W.M.V.K.",
+            "group": "E4"
+        },
+        {
+            "index": 230292,
+            "full_index": "230292B",
+            "name": "JAYATILAKA S.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230293,
+            "full_index": "230293E",
+            "name": "JAYAWARDANA A.J.A.",
+            "group": "E4"
+        },
+        {
+            "index": 230294,
+            "full_index": "230294H",
+            "name": "JAYAWARDANA K.P.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230295,
+            "full_index": "230295L",
+            "name": "JAYAWARDANA K.P.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230296,
+            "full_index": "230296P",
+            "name": "JAYAWARDANA P.H.N.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230297,
+            "full_index": "230297U",
+            "name": "JAYAWARDANE K.A.D.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230298,
+            "full_index": "230298A",
+            "name": "JAYAWARDANE T.G.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230299,
+            "full_index": "230299D",
+            "name": "JAYAWARDENA V.R.",
+            "group": "E4"
+        },
+        {
+            "index": 230300,
+            "full_index": "230300C",
+            "name": "JAYAWEERA N.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230301,
+            "full_index": "230301F",
+            "name": "JAYAWEERA Y.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230302,
+            "full_index": "230302J",
+            "name": "JAYAWICKRAMA K.C.",
+            "group": "E4"
+        },
+        {
+            "index": 230303,
+            "full_index": "230303M",
+            "name": "JEEWANDARA J.D.H.",
+            "group": "E4"
+        },
+        {
+            "index": 230304,
+            "full_index": "230304R",
+            "name": "JEGARASHAN B.",
+            "group": "E4"
+        },
+        {
+            "index": 230305,
+            "full_index": "230305V",
+            "name": "JITHARSANAN T.",
+            "group": "E4"
+        },
+        {
+            "index": 230306,
+            "full_index": "230306B",
+            "name": "JITHMAL P.G.I.",
+            "group": "E4"
+        },
+        {
+            "index": 230307,
+            "full_index": "230307E",
+            "name": "JITHNUKA D.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230308,
+            "full_index": "230308H",
+            "name": "JOVIN J.J.D.N.",
+            "group": "E4"
+        },
+        {
+            "index": 230309,
+            "full_index": "230309L",
+            "name": "KAHAGALLA N.H.",
+            "group": "E4"
+        },
+        {
+            "index": 230310,
+            "full_index": "230310G",
+            "name": "KAJATHEEPAN P.",
+            "group": "E4"
+        },
+        {
+            "index": 230311,
+            "full_index": "230311K",
+            "name": "KALUARACHCHI N.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230312,
+            "full_index": "230312N",
+            "name": "KALUPAHANE M.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230313,
+            "full_index": "230313T",
+            "name": "KAMSAN S.",
+            "group": "E4"
+        },
+        {
+            "index": 230314,
+            "full_index": "230314X",
+            "name": "KANNANGARA T.M.",
+            "group": "E4"
+        },
+        {
+            "index": 230315,
+            "full_index": "230315C",
+            "name": "KANNANGARA TP",
+            "group": "E4"
+        },
+        {
+            "index": 230316,
+            "full_index": "230316F",
+            "name": "KARAWITA L.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230317,
+            "full_index": "230317J",
+            "name": "KARIYAPPERUMA K.M.N.S.",
+            "group": "E4"
+        },
+        {
+            "index": 230318,
+            "full_index": "230318M",
+            "name": "KARIYAWASAM J.H.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230319,
+            "full_index": "230319R",
+            "name": "KARIYAWASAM K.K.A.C.",
+            "group": "E4"
+        },
+        {
+            "index": 230320,
+            "full_index": "230320L",
+            "name": "KARUNANAYAKA N.C.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230321,
+            "full_index": "230321P",
+            "name": "KARUNANAYAKE A.H.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230322,
+            "full_index": "230322U",
+            "name": "KARUNARATHNA G.K.T.",
+            "group": "E4"
+        },
+        {
+            "index": 230323,
+            "full_index": "230323A",
+            "name": "KARUNARATHNA M.G.K.V.",
+            "group": "E4"
+        },
+        {
+            "index": 230324,
+            "full_index": "230324D",
+            "name": "KARUNARATHNA P.M.M.C.S",
+            "group": "E4"
+        },
+        {
+            "index": 230325,
+            "full_index": "230325G",
+            "name": "KATHURSHAN K.",
+            "group": "E4"
+        },
+        {
+            "index": 230326,
+            "full_index": "230326K",
+            "name": "KAUSHAL S.V.",
+            "group": "E4"
+        },
+        {
+            "index": 230327,
+            "full_index": "230327N",
+            "name": "KAUSHALYA R.G.S.P.",
+            "group": "E4"
+        },
+        {
+            "index": 230328,
+            "full_index": "230328T",
+            "name": "KAVINDA M.A.D.",
+            "group": "E4"
+        },
+        {
+            "index": 230329,
+            "full_index": "230329X",
+            "name": "KAVINDI W.G.K.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230330,
+            "full_index": "230330R",
+            "name": "KAVIYA T.",
+            "group": "E5"
+        },
+        {
+            "index": 230331,
+            "full_index": "230331V",
+            "name": "KAVYANGA H.A.",
+            "group": "E5"
+        },
+        {
+            "index": 230332,
+            "full_index": "230332B",
+            "name": "KEERAWELLA K.P.C.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230333,
+            "full_index": "230333E",
+            "name": "KEERTHANAN K.",
+            "group": "E5"
+        },
+        {
+            "index": 230334,
+            "full_index": "230334H",
+            "name": "KESHARA K.P.W.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230335,
+            "full_index": "230335L",
+            "name": "KHAMSHAYAN R.",
+            "group": "E5"
+        },
+        {
+            "index": 230336,
+            "full_index": "230336P",
+            "name": "KIRINDAGE S.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230337,
+            "full_index": "230337U",
+            "name": "KISHALAN V.",
+            "group": "E5"
+        },
+        {
+            "index": 230338,
+            "full_index": "230338A",
+            "name": "KITHSIRI U.A.S.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230339,
+            "full_index": "230339D",
+            "name": "KODIKARA A.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230340,
+            "full_index": "230340X",
+            "name": "KODITHUWAKKU A.K.A.L.N.",
+            "group": "E5"
+        },
+        {
+            "index": 230341,
+            "full_index": "230341C",
+            "name": "KODITHUWAKKU H.N.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230342,
+            "full_index": "230342F",
+            "name": "KODITHUWAKKU K.A.H.",
+            "group": "E5"
+        },
+        {
+            "index": 230343,
+            "full_index": "230343J",
+            "name": "KOSWATTA K.M.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230344,
+            "full_index": "230344M",
+            "name": "KOTHALAWALA M.L.",
+            "group": "E5"
+        },
+        {
+            "index": 230345,
+            "full_index": "230345R",
+            "name": "KRISHNA PRASHANTH S.",
+            "group": "E5"
+        },
+        {
+            "index": 230346,
+            "full_index": "230346V",
+            "name": "KULARATHNA D.V.N.",
+            "group": "E5"
+        },
+        {
+            "index": 230347,
+            "full_index": "230347B",
+            "name": "KULASINGHE S.S.T.",
+            "group": "E5"
+        },
+        {
+            "index": 230348,
+            "full_index": "230348E",
+            "name": "KULATHUNGA W.A.S.K.",
+            "group": "E5"
+        },
+        {
+            "index": 230349,
+            "full_index": "230349H",
+            "name": "KULATHUNGE K.A.N.H.",
+            "group": "E5"
+        },
+        {
+            "index": 230350,
+            "full_index": "230350D",
+            "name": "KULATUNGA K.M.N.S.B.",
+            "group": "E5"
+        },
+        {
+            "index": 230351,
+            "full_index": "230351G",
+            "name": "KUMANAYAKA V.C.",
+            "group": "E5"
+        },
+        {
+            "index": 230352,
+            "full_index": "230352K",
+            "name": "KUMARA K.B.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230353,
+            "full_index": "230353N",
+            "name": "KUMARA P.K.M.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230354,
+            "full_index": "230354T",
+            "name": "KUMARASINGHE HRPR",
+            "group": "E5"
+        },
+        {
+            "index": 230355,
+            "full_index": "230355X",
+            "name": "KUMARASINGHE M.N.",
+            "group": "E5"
+        },
+        {
+            "index": 230356,
+            "full_index": "230356C",
+            "name": "KUMARASINGHE M.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230357,
+            "full_index": "230357F",
+            "name": "KUMARATHUNGA A.C.L.",
+            "group": "E5"
+        },
+        {
+            "index": 230358,
+            "full_index": "230358J",
+            "name": "KUMARATHUNGA U.A.N.N.",
+            "group": "E5"
+        },
+        {
+            "index": 230359,
+            "full_index": "230359M",
+            "name": "KURUPPU H.A.",
+            "group": "E5"
+        },
+        {
+            "index": 230360,
+            "full_index": "230360H",
+            "name": "LAKMAL H.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230361,
+            "full_index": "230361L",
+            "name": "LAKMAL H.M.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230362,
+            "full_index": "230362P",
+            "name": "LAKMAL N.G.L.A.",
+            "group": "E5"
+        },
+        {
+            "index": 230363,
+            "full_index": "230363U",
+            "name": "LAKNAVI M.K.D.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230364,
+            "full_index": "230364A",
+            "name": "LAKSHAN A.K.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230365,
+            "full_index": "230365D",
+            "name": "LAKSHAN H.M.K.",
+            "group": "E5"
+        },
+        {
+            "index": 230366,
+            "full_index": "230366G",
+            "name": "LAKSHAN K.T.A.",
+            "group": "E5"
+        },
+        {
+            "index": 230367,
+            "full_index": "230367K",
+            "name": "LAKSHAN R.D.C.",
+            "group": "E5"
+        },
+        {
+            "index": 230368,
+            "full_index": "230368N",
+            "name": "LAKSHAN W.B.T.",
+            "group": "E5"
+        },
+        {
+            "index": 230369,
+            "full_index": "230369T",
+            "name": "LAKSHARI W.A.T.",
+            "group": "E5"
+        },
+        {
+            "index": 230370,
+            "full_index": "230370M",
+            "name": "LAKSHIKA G.",
+            "group": "E5"
+        },
+        {
+            "index": 230371,
+            "full_index": "230371R",
+            "name": "LAVANATHAN J.",
+            "group": "E5"
+        },
+        {
+            "index": 230372,
+            "full_index": "230372V",
+            "name": "LAVANGA H.A.V.",
+            "group": "E5"
+        },
+        {
+            "index": 230373,
+            "full_index": "230373B",
+            "name": "LAWANYA K.K.H.G.",
+            "group": "E5"
+        },
+        {
+            "index": 230374,
+            "full_index": "230374E",
+            "name": "LELWALA J.U.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230375,
+            "full_index": "230375H",
+            "name": "LENMINI B.L.W.",
+            "group": "E5"
+        },
+        {
+            "index": 230376,
+            "full_index": "230376L",
+            "name": "LISARA E.T.M.V.",
+            "group": "E5"
+        },
+        {
+            "index": 230377,
+            "full_index": "230377P",
+            "name": "LIYANAGE D.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230378,
+            "full_index": "230378U",
+            "name": "LOKISHAN K.",
+            "group": "E5"
+        },
+        {
+            "index": 230379,
+            "full_index": "230379A",
+            "name": "LOKUBALASURIYA L.B.S.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230380,
+            "full_index": "230380T",
+            "name": "LUCKSHAN S.M.",
+            "group": "E5"
+        },
+        {
+            "index": 230381,
+            "full_index": "230381X",
+            "name": "MADAELA M.P.G.R.V.M.",
+            "group": "E5"
+        },
+        {
+            "index": 230382,
+            "full_index": "230382C",
+            "name": "MADHUBHANU K.T.T.",
+            "group": "E5"
+        },
+        {
+            "index": 230383,
+            "full_index": "230383F",
+            "name": "MADHUBHASHANA H.A.L.",
+            "group": "E5"
+        },
+        {
+            "index": 230384,
+            "full_index": "230384J",
+            "name": "MADHUBHASHINI M.D.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230385,
+            "full_index": "230385M",
+            "name": "MADHUSANKA G.V.Y.",
+            "group": "E5"
+        },
+        {
+            "index": 230386,
+            "full_index": "230386R",
+            "name": "MADHUSHAN W.K.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230387,
+            "full_index": "230387V",
+            "name": "MAHANAMA K.J.C.",
+            "group": "E5"
+        },
+        {
+            "index": 230388,
+            "full_index": "230388B",
+            "name": "MAKULDENIYA M.W.M.D.U.G.",
+            "group": "E5"
+        },
+        {
+            "index": 230389,
+            "full_index": "230389E",
+            "name": "MALAVIPATHIRANA H.H.",
+            "group": "E5"
+        },
+        {
+            "index": 230390,
+            "full_index": "230390A",
+            "name": "MALDENIYA P.A.D.G.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230391,
+            "full_index": "230391D",
+            "name": "MALINDA S.A.L.",
+            "group": "E5"
+        },
+        {
+            "index": 230392,
+            "full_index": "230392G",
+            "name": "MALKINI A.P.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230393,
+            "full_index": "230393K",
+            "name": "MALLAWAARACHCHI U.I.",
+            "group": "E5"
+        },
+        {
+            "index": 230394,
+            "full_index": "230394N",
+            "name": "MALLAWARACHCHI H.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230395,
+            "full_index": "230395T",
+            "name": "MANATUNGA K.D.",
+            "group": "E5"
+        },
+        {
+            "index": 230396,
+            "full_index": "230396X",
+            "name": "MANDINU R.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230397,
+            "full_index": "230397C",
+            "name": "MANJULA J.A.G.",
+            "group": "E5"
+        },
+        {
+            "index": 230398,
+            "full_index": "230398F",
+            "name": "MARASINGHA M.D.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230399,
+            "full_index": "230399J",
+            "name": "MARSHAD M.M.M.",
+            "group": "E5"
+        },
+        {
+            "index": 230400,
+            "full_index": "230400H",
+            "name": "MATHARAARACHCHI V.L.R.",
+            "group": "E5"
+        },
+        {
+            "index": 230401,
+            "full_index": "230401L",
+            "name": "MATHTHEGAMA M.R.L.S.",
+            "group": "E5"
+        },
+        {
+            "index": 230402,
+            "full_index": "230402P",
+            "name": "MATHULAN S.",
+            "group": "E5"
+        },
+        {
+            "index": 230403,
+            "full_index": "230403U",
+            "name": "MATHUMILAN K.",
+            "group": "E5"
+        },
+        {
+            "index": 230404,
+            "full_index": "230404A",
+            "name": "MATHUSA P.",
+            "group": "E5"
+        },
+        {
+            "index": 230405,
+            "full_index": "230405D",
+            "name": "MATHUSHALINY M",
+            "group": "E5"
+        },
+        {
+            "index": 230406,
+            "full_index": "230406G",
+            "name": "MEDDEGODA C.H.",
+            "group": "E5"
+        },
+        {
+            "index": 230407,
+            "full_index": "230407K",
+            "name": "MEEDENIYA M.M.H.",
+            "group": "E5"
+        },
+        {
+            "index": 230408,
+            "full_index": "230408N",
+            "name": "MENDIS M.L.I.",
+            "group": "E5"
+        },
+        {
+            "index": 230409,
+            "full_index": "230409T",
+            "name": "MENDIS TASD",
+            "group": "E5"
+        },
+        {
+            "index": 230410,
+            "full_index": "230410M",
+            "name": "METHSARANI W.K.S.P.",
+            "group": "E5"
+        },
+        {
+            "index": 230411,
+            "full_index": "230411R",
+            "name": "MEWANYA M.A.N.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230412,
+            "full_index": "230412V",
+            "name": "MIHIMAL K.M.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230413,
+            "full_index": "230413B",
+            "name": "MINDISA S.K.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230414,
+            "full_index": "230414E",
+            "name": "MIRIYAGALLA D.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230415,
+            "full_index": "230415H",
+            "name": "MUDALIARACHCHI N.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230416,
+            "full_index": "230416L",
+            "name": "MUHAMATH M.A.A.A.",
+            "group": "E6"
+        },
+        {
+            "index": 230417,
+            "full_index": "230417P",
+            "name": "MUNASINGHE A.I.",
+            "group": "E6"
+        },
+        {
+            "index": 230418,
+            "full_index": "230418U",
+            "name": "MUTHUKUDA D.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230419,
+            "full_index": "230419A",
+            "name": "MUTHUKUMARANA P.G.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230420,
+            "full_index": "230420T",
+            "name": "NANAYAKKARA G.A.A.",
+            "group": "E6"
+        },
+        {
+            "index": 230421,
+            "full_index": "230421X",
+            "name": "NANAYAKKARA M.K.H.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230422,
+            "full_index": "230422C",
+            "name": "NANAYAKKARA M.L.P.",
+            "group": "E6"
+        },
+        {
+            "index": 230423,
+            "full_index": "230423F",
+            "name": "NANAYAKKARA N.W.P.B.",
+            "group": "E6"
+        },
+        {
+            "index": 230424,
+            "full_index": "230424J",
+            "name": "NAVODYA H.H.D.",
+            "group": "E6"
+        },
+        {
+            "index": 230425,
+            "full_index": "230425M",
+            "name": "NAWAGAMUWA N.A.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230426,
+            "full_index": "230426R",
+            "name": "NAWARATHNA R.M.D.P.",
+            "group": "E6"
+        },
+        {
+            "index": 230427,
+            "full_index": "230427V",
+            "name": "NAWARATHNA T.P.",
+            "group": "E6"
+        },
+        {
+            "index": 230428,
+            "full_index": "230428B",
+            "name": "NEELAYADHAKSHI P.",
+            "group": "E6"
+        },
+        {
+            "index": 230429,
+            "full_index": "230429E",
+            "name": "NETHMINA L.T.H.",
+            "group": "E6"
+        },
+        {
+            "index": 230430,
+            "full_index": "230430A",
+            "name": "NETHMINA P.H.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230431,
+            "full_index": "230431D",
+            "name": "NETHMINI H.D.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230432,
+            "full_index": "230432G",
+            "name": "NETHMINI R.M.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230433,
+            "full_index": "230433K",
+            "name": "NETHSARA M.W.V.",
+            "group": "E6"
+        },
+        {
+            "index": 230434,
+            "full_index": "230434N",
+            "name": "NETHSARA T.A.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230435,
+            "full_index": "230435T",
+            "name": "NETHSARA U.D.K.C.",
+            "group": "E6"
+        },
+        {
+            "index": 230436,
+            "full_index": "230436X",
+            "name": "NETTIKUMARA N.A.H.G.",
+            "group": "E6"
+        },
+        {
+            "index": 230437,
+            "full_index": "230437C",
+            "name": "NIDHARSHAN V.",
+            "group": "E6"
+        },
+        {
+            "index": 230438,
+            "full_index": "230438F",
+            "name": "NIDUWARA T.G.D.",
+            "group": "E6"
+        },
+        {
+            "index": 230439,
+            "full_index": "230439J",
+            "name": "NIKESHALA I.D.S.D.",
+            "group": "E6"
+        },
+        {
+            "index": 230440,
+            "full_index": "230440E",
+            "name": "NILAMBARI H.M.H.",
+            "group": "E6"
+        },
+        {
+            "index": 230441,
+            "full_index": "230441H",
+            "name": "NILUSHIKA B.A.V.",
+            "group": "E6"
+        },
+        {
+            "index": 230442,
+            "full_index": "230442L",
+            "name": "NIMADITH W.N.A.C.",
+            "group": "E6"
+        },
+        {
+            "index": 230443,
+            "full_index": "230443P",
+            "name": "NIMASHA H.P.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230444,
+            "full_index": "230444U",
+            "name": "NIRMANI W.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230445,
+            "full_index": "230445A",
+            "name": "NIROSHAN I.A.K.A.",
+            "group": "E6"
+        },
+        {
+            "index": 230446,
+            "full_index": "230446D",
+            "name": "NIRUKTHI G.L.P.",
+            "group": "E6"
+        },
+        {
+            "index": 230447,
+            "full_index": "230447G",
+            "name": "NISHANTH N.",
+            "group": "E6"
+        },
+        {
+            "index": 230448,
+            "full_index": "230448K",
+            "name": "NITHUSUJAN T.",
+            "group": "E6"
+        },
+        {
+            "index": 230449,
+            "full_index": "230449N",
+            "name": "NUWANAKA W.A.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230450,
+            "full_index": "230450J",
+            "name": "OUTSCHOORN D.",
+            "group": "E6"
+        },
+        {
+            "index": 230451,
+            "full_index": "230451M",
+            "name": "PABASARA H.H.J.",
+            "group": "E6"
+        },
+        {
+            "index": 230452,
+            "full_index": "230452R",
+            "name": "PABASARA W.G.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230453,
+            "full_index": "230453V",
+            "name": "PADMASIRI G.R.H.D.",
+            "group": "E6"
+        },
+        {
+            "index": 230454,
+            "full_index": "230454B",
+            "name": "PADMASIRI G.R.L.",
+            "group": "E6"
+        },
+        {
+            "index": 230455,
+            "full_index": "230455E",
+            "name": "PAHANGA G.H.L.",
+            "group": "E6"
+        },
+        {
+            "index": 230456,
+            "full_index": "230456H",
+            "name": "PALIHAKKARA P.I.",
+            "group": "E6"
+        },
+        {
+            "index": 230457,
+            "full_index": "230457L",
+            "name": "PALIHAKOON P.M.T.I.",
+            "group": "E6"
+        },
+        {
+            "index": 230458,
+            "full_index": "230458P",
+            "name": "PALIHENA H.H.",
+            "group": "E6"
+        },
+        {
+            "index": 230459,
+            "full_index": "230459U",
+            "name": "PALLIYAGURU D.R.",
+            "group": "E6"
+        },
+        {
+            "index": 230460,
+            "full_index": "230460N",
+            "name": "PAMOD B.G.A.Y.",
+            "group": "E6"
+        },
+        {
+            "index": 230461,
+            "full_index": "230461T",
+            "name": "PANKAJA D.L.K.",
+            "group": "E6"
+        },
+        {
+            "index": 230462,
+            "full_index": "230462X",
+            "name": "PANUHARAN S.",
+            "group": "E6"
+        },
+        {
+            "index": 230463,
+            "full_index": "230463C",
+            "name": "PARANTHAMAN P.",
+            "group": "E6"
+        },
+        {
+            "index": 230464,
+            "full_index": "230464F",
+            "name": "PASANDUL U.R.J.",
+            "group": "E6"
+        },
+        {
+            "index": 230465,
+            "full_index": "230465J",
+            "name": "PATHIRANA D.P.C.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230466,
+            "full_index": "230466M",
+            "name": "PATHIRANA H.H.J.",
+            "group": "E6"
+        },
+        {
+            "index": 230467,
+            "full_index": "230467R",
+            "name": "PATHIRANA K.P.R.J.",
+            "group": "E6"
+        },
+        {
+            "index": 230468,
+            "full_index": "230468V",
+            "name": "PATHIRANA P.T.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230469,
+            "full_index": "230469B",
+            "name": "PEIRIS E.A.S.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230470,
+            "full_index": "230470U",
+            "name": "PEIRIS T.S.R.",
+            "group": "E6"
+        },
+        {
+            "index": 230471,
+            "full_index": "230471A",
+            "name": "PELIGE M.V.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230472,
+            "full_index": "230472D",
+            "name": "PEMARATHNA W.M.T.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230473,
+            "full_index": "230473G",
+            "name": "PERAMUNAGE D.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230474,
+            "full_index": "230474K",
+            "name": "PERANAVAN K.",
+            "group": "E6"
+        },
+        {
+            "index": 230475,
+            "full_index": "230475N",
+            "name": "PERERA D.I.R.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230476,
+            "full_index": "230476T",
+            "name": "PERERA G.M.B.",
+            "group": "E6"
+        },
+        {
+            "index": 230477,
+            "full_index": "230477X",
+            "name": "PERERA H.A.J.I.",
+            "group": "E6"
+        },
+        {
+            "index": 230478,
+            "full_index": "230478C",
+            "name": "PERERA K.C.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230479,
+            "full_index": "230479F",
+            "name": "PERERA K.M.H.",
+            "group": "E6"
+        },
+        {
+            "index": 230480,
+            "full_index": "230480B",
+            "name": "PERERA K.S.D.",
+            "group": "E6"
+        },
+        {
+            "index": 230481,
+            "full_index": "230481E",
+            "name": "PERERA K.W.A.O.V.",
+            "group": "E6"
+        },
+        {
+            "index": 230482,
+            "full_index": "230482H",
+            "name": "PERERA M.V.C.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230483,
+            "full_index": "230483L",
+            "name": "PERERA N.D.K",
+            "group": "E6"
+        },
+        {
+            "index": 230484,
+            "full_index": "230484P",
+            "name": "PERERA N.N.P.",
+            "group": "E6"
+        },
+        {
+            "index": 230485,
+            "full_index": "230485U",
+            "name": "PERERA T.H.O.V.",
+            "group": "E6"
+        },
+        {
+            "index": 230486,
+            "full_index": "230486A",
+            "name": "PERERA U.I.H.",
+            "group": "E6"
+        },
+        {
+            "index": 230487,
+            "full_index": "230487D",
+            "name": "PERERA W.A.L.S.",
+            "group": "E6"
+        },
+        {
+            "index": 230488,
+            "full_index": "230488G",
+            "name": "PESARA U.D.L.",
+            "group": "E6"
+        },
+        {
+            "index": 230489,
+            "full_index": "230489K",
+            "name": "PETHANGODA K.T.",
+            "group": "E6"
+        },
+        {
+            "index": 230490,
+            "full_index": "230490F",
+            "name": "PIRASANTH V.",
+            "group": "E6"
+        },
+        {
+            "index": 230491,
+            "full_index": "230491J",
+            "name": "PIRIYATHARSAN M.",
+            "group": "E6"
+        },
+        {
+            "index": 230492,
+            "full_index": "230492M",
+            "name": "PITIWADUGE D.N.",
+            "group": "E6"
+        },
+        {
+            "index": 230493,
+            "full_index": "230493R",
+            "name": "PIYUMAL N.P.P.",
+            "group": "E7"
+        },
+        {
+            "index": 230494,
+            "full_index": "230494V",
+            "name": "PONNAMPERUMA K.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230495,
+            "full_index": "230495B",
+            "name": "PRABHARSHA H.W.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230496,
+            "full_index": "230496E",
+            "name": "PRABHATH U.L.K.",
+            "group": "E7"
+        },
+        {
+            "index": 230497,
+            "full_index": "230497H",
+            "name": "PRAGEETH V.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230498,
+            "full_index": "230498L",
+            "name": "PRAVEESHA S.A.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230499,
+            "full_index": "230499P",
+            "name": "PREMACHANDRA P.G.N.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230500,
+            "full_index": "230500N",
+            "name": "PRISHMIKA H.W.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230501,
+            "full_index": "230501T",
+            "name": "PRIYADARSHANA D.M.R.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230502,
+            "full_index": "230502X",
+            "name": "PRIYADARSHANA S.A.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230503,
+            "full_index": "230503C",
+            "name": "PRIYAHARAN P.",
+            "group": "E7"
+        },
+        {
+            "index": 230504,
+            "full_index": "230504F",
+            "name": "PUSSALLA P.G.D.C.",
+            "group": "E7"
+        },
+        {
+            "index": 230505,
+            "full_index": "230505J",
+            "name": "RAFI M.A.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230506,
+            "full_index": "230506M",
+            "name": "RAHIM M.I.",
+            "group": "E7"
+        },
+        {
+            "index": 230507,
+            "full_index": "230507R",
+            "name": "RAHMAN M.F.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230508,
+            "full_index": "230508V",
+            "name": "RAHUL B.",
+            "group": "E7"
+        },
+        {
+            "index": 230509,
+            "full_index": "230509B",
+            "name": "RAJAKARUNARATNE S.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230510,
+            "full_index": "230510U",
+            "name": "RAJAPAKSA S.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230511,
+            "full_index": "230511A",
+            "name": "RAJAPAKSHA J.S.W.",
+            "group": "E7"
+        },
+        {
+            "index": 230512,
+            "full_index": "230512D",
+            "name": "RAJAPAKSHA K.U.G.",
+            "group": "E7"
+        },
+        {
+            "index": 230513,
+            "full_index": "230513G",
+            "name": "RAJAPAKSHA R.H.G.S.R.",
+            "group": "E7"
+        },
+        {
+            "index": 230514,
+            "full_index": "230514K",
+            "name": "RAJAPAKSHA R.L.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230515,
+            "full_index": "230515N",
+            "name": "RAJAPAKSHA T.N.D.W.",
+            "group": "E7"
+        },
+        {
+            "index": 230516,
+            "full_index": "230516T",
+            "name": "RAJAPAKSHE R.P.M.T.",
+            "group": "E7"
+        },
+        {
+            "index": 230517,
+            "full_index": "230517X",
+            "name": "RAJAPAKSHE W.R.K.L.M.H.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230518,
+            "full_index": "230518C",
+            "name": "RAKESHAN K.R.K.",
+            "group": "E7"
+        },
+        {
+            "index": 230519,
+            "full_index": "230519F",
+            "name": "RANASINGHA R.A.T.U.",
+            "group": "E7"
+        },
+        {
+            "index": 230520,
+            "full_index": "230520B",
+            "name": "RANASINGHE A.G.N.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230521,
+            "full_index": "230521E",
+            "name": "RANASINGHE D.P.H.",
+            "group": "E7"
+        },
+        {
+            "index": 230522,
+            "full_index": "230522H",
+            "name": "RANASINGHE K.G.D.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230523,
+            "full_index": "230523L",
+            "name": "RANASINGHE K.G.S.C.",
+            "group": "E7"
+        },
+        {
+            "index": 230524,
+            "full_index": "230524P",
+            "name": "RANATHUNGA J.P.M.M.",
+            "group": "E7"
+        },
+        {
+            "index": 230525,
+            "full_index": "230525U",
+            "name": "RANATHUNGA R.J.K.O.H.",
+            "group": "E7"
+        },
+        {
+            "index": 230526,
+            "full_index": "230526A",
+            "name": "RANAWAKA R.A.C.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230527,
+            "full_index": "230527D",
+            "name": "RANAWAKA R.A.G.K.",
+            "group": "E7"
+        },
+        {
+            "index": 230528,
+            "full_index": "230528G",
+            "name": "RANAWAKA R.A.T.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230529,
+            "full_index": "230529K",
+            "name": "RANAWEERA R.K.D.H.M.",
+            "group": "E7"
+        },
+        {
+            "index": 230530,
+            "full_index": "230530F",
+            "name": "RANAWEERA R.P.K.R.H.",
+            "group": "E7"
+        },
+        {
+            "index": 230531,
+            "full_index": "230531J",
+            "name": "RANHIRU U.G.I.",
+            "group": "E7"
+        },
+        {
+            "index": 230532,
+            "full_index": "230532M",
+            "name": "RANMUTHU S.G.",
+            "group": "E7"
+        },
+        {
+            "index": 230533,
+            "full_index": "230533R",
+            "name": "RANSARANI V.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230534,
+            "full_index": "230534V",
+            "name": "RANSIDU B.L.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230535,
+            "full_index": "230535B",
+            "name": "RASANJANA KHWS",
+            "group": "E7"
+        },
+        {
+            "index": 230536,
+            "full_index": "230536E",
+            "name": "RASANJANA W.P.G. R.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230537,
+            "full_index": "230537H",
+            "name": "RASHMIKA K.P.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230538,
+            "full_index": "230538L",
+            "name": "RASHMIKA R.R.P.",
+            "group": "E7"
+        },
+        {
+            "index": 230539,
+            "full_index": "230539P",
+            "name": "RATHEESHAN A.R.",
+            "group": "E7"
+        },
+        {
+            "index": 230540,
+            "full_index": "230540K",
+            "name": "RATHNAKUMARA N.R.N.C.",
+            "group": "E7"
+        },
+        {
+            "index": 230541,
+            "full_index": "230541N",
+            "name": "RATHNAMALALA R.I.B.S.P.",
+            "group": "E7"
+        },
+        {
+            "index": 230542,
+            "full_index": "230542T",
+            "name": "RATHNAYAKA R.M.I.C.",
+            "group": "E7"
+        },
+        {
+            "index": 230543,
+            "full_index": "230543X",
+            "name": "RATHNAYAKA R.M.Y.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230544,
+            "full_index": "230544C",
+            "name": "RATHNAYAKE M.A.G.K.N.",
+            "group": "E7"
+        },
+        {
+            "index": 230545,
+            "full_index": "230545F",
+            "name": "RATHNAYAKE P.R.G.M.C.H.",
+            "group": "E7"
+        },
+        {
+            "index": 230546,
+            "full_index": "230546J",
+            "name": "RATHNAYAKE R.M.C.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230547,
+            "full_index": "230547M",
+            "name": "RATHNAYAKE R.M.R.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230548,
+            "full_index": "230548R",
+            "name": "RATNAYAKE R.M.S.H.",
+            "group": "E7"
+        },
+        {
+            "index": 230549,
+            "full_index": "230549V",
+            "name": "REISS T.N.E.",
+            "group": "E7"
+        },
+        {
+            "index": 230550,
+            "full_index": "230550P",
+            "name": "RIFNAZ K.R.M.",
+            "group": "E7"
+        },
+        {
+            "index": 230551,
+            "full_index": "230551U",
+            "name": "RODRIGO B.K.G.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230552,
+            "full_index": "230552A",
+            "name": "ROHITHA U.W.A.C.J.",
+            "group": "E7"
+        },
+        {
+            "index": 230553,
+            "full_index": "230553D",
+            "name": "RUPASINGHE R.A.H.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230554,
+            "full_index": "230554G",
+            "name": "RUTHTHIRAGAYAN S.",
+            "group": "E7"
+        },
+        {
+            "index": 230555,
+            "full_index": "230555K",
+            "name": "SAFRINA M.R.F.",
+            "group": "E7"
+        },
+        {
+            "index": 230556,
+            "full_index": "230556N",
+            "name": "SAHETHTHIYAN S.B.",
+            "group": "E7"
+        },
+        {
+            "index": 230557,
+            "full_index": "230557T",
+            "name": "SAHITHYAN K.",
+            "group": "E7"
+        },
+        {
+            "index": 230558,
+            "full_index": "230558X",
+            "name": "SAJEEVAN A.",
+            "group": "E7"
+        },
+        {
+            "index": 230559,
+            "full_index": "230559C",
+            "name": "SAJIV R.",
+            "group": "E7"
+        },
+        {
+            "index": 230560,
+            "full_index": "230560V",
+            "name": "SAMAHON H.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230561,
+            "full_index": "230561B",
+            "name": "SAMARAGE S.M.S.U.",
+            "group": "E7"
+        },
+        {
+            "index": 230562,
+            "full_index": "230562E",
+            "name": "SAMARAKOON S.M.S.G.",
+            "group": "E7"
+        },
+        {
+            "index": 230563,
+            "full_index": "230563H",
+            "name": "SAMARANAYAKA H.D.J.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230564,
+            "full_index": "230564L",
+            "name": "SAMARASEKARA S.M.R.P.",
+            "group": "E7"
+        },
+        {
+            "index": 230565,
+            "full_index": "230565P",
+            "name": "SAMARASINGHE S.A.R.A.",
+            "group": "E7"
+        },
+        {
+            "index": 230566,
+            "full_index": "230566U",
+            "name": "SAMARASINGHE S.M.R.R.",
+            "group": "E7"
+        },
+        {
+            "index": 230567,
+            "full_index": "230567A",
+            "name": "SAMARAWICKRAMA H.A.D.S.",
+            "group": "E7"
+        },
+        {
+            "index": 230568,
+            "full_index": "230568D",
+            "name": "SAMEEKSHIKA W.A.K.E.",
+            "group": "E7"
+        },
+        {
+            "index": 230569,
+            "full_index": "230569G",
+            "name": "SAMEERA W.H.C.",
+            "group": "E7"
+        },
+        {
+            "index": 230570,
+            "full_index": "230570C",
+            "name": "SAMPATH S.P.L.",
+            "group": "E7"
+        },
+        {
+            "index": 230571,
+            "full_index": "230571F",
+            "name": "SAMPATH W.I.D.",
+            "group": "E7"
+        },
+        {
+            "index": 230572,
+            "full_index": "230572J",
+            "name": "SAMPAVI G.",
+            "group": "E7"
+        },
+        {
+            "index": 230573,
+            "full_index": "230573M",
+            "name": "SANDARUIMESH G.K.M.",
+            "group": "E7"
+        },
+        {
+            "index": 230574,
+            "full_index": "230574R",
+            "name": "SANDARUWAN W.K.P.",
+            "group": "E7"
+        },
+        {
+            "index": 230575,
+            "full_index": "230575V",
+            "name": "SANDEEPA D.M.P.",
+            "group": "E8"
+        },
+        {
+            "index": 230576,
+            "full_index": "230576B",
+            "name": "SANJAYA G.H.D.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230577,
+            "full_index": "230577E",
+            "name": "SANJEYAN G.",
+            "group": "E8"
+        },
+        {
+            "index": 230578,
+            "full_index": "230578H",
+            "name": "SANJULA M.D.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230579,
+            "full_index": "230579L",
+            "name": "SANKANITH N.",
+            "group": "E8"
+        },
+        {
+            "index": 230580,
+            "full_index": "230580G",
+            "name": "SANSAYAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230581,
+            "full_index": "230581K",
+            "name": "SANTHOSH S.",
+            "group": "E8"
+        },
+        {
+            "index": 230582,
+            "full_index": "230582N",
+            "name": "SARAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230583,
+            "full_index": "230583T",
+            "name": "SARANASINGHE H.L.B.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230584,
+            "full_index": "230584X",
+            "name": "SARUJAN J.",
+            "group": "E8"
+        },
+        {
+            "index": 230585,
+            "full_index": "230585C",
+            "name": "SARUKA U.",
+            "group": "E8"
+        },
+        {
+            "index": 230586,
+            "full_index": "230586F",
+            "name": "SASANKA J.I.",
+            "group": "E8"
+        },
+        {
+            "index": 230587,
+            "full_index": "230587J",
+            "name": "SASIKAANTH N.",
+            "group": "E8"
+        },
+        {
+            "index": 230588,
+            "full_index": "230588M",
+            "name": "SATHARASINGHE J.E.J.",
+            "group": "E8"
+        },
+        {
+            "index": 230589,
+            "full_index": "230589R",
+            "name": "SATHINDRA H.K.D.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230590,
+            "full_index": "230590L",
+            "name": "SATHSARA D.V.D.W.",
+            "group": "E8"
+        },
+        {
+            "index": 230591,
+            "full_index": "230591P",
+            "name": "SATHSARA K.V.G.",
+            "group": "E8"
+        },
+        {
+            "index": 230592,
+            "full_index": "230592U",
+            "name": "SATHURSHNA U.",
+            "group": "E8"
+        },
+        {
+            "index": 230593,
+            "full_index": "230593A",
+            "name": "SENADHEERA H.W.M.L.U.C.",
+            "group": "E8"
+        },
+        {
+            "index": 230594,
+            "full_index": "230594D",
+            "name": "SENANAYAKA S.A.M.T.H.",
+            "group": "E8"
+        },
+        {
+            "index": 230595,
+            "full_index": "230595G",
+            "name": "SENANAYAKE H.P.V.R.",
+            "group": "E8"
+        },
+        {
+            "index": 230596,
+            "full_index": "230596K",
+            "name": "SENARATHNA N.A.D.E.",
+            "group": "E8"
+        },
+        {
+            "index": 230597,
+            "full_index": "230597N",
+            "name": "SENAVIRATHNA D.K.K.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230598,
+            "full_index": "230598T",
+            "name": "SENEVIRATHNA P.K.A.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230599,
+            "full_index": "230599X",
+            "name": "SENEVIRATHNE E.G.S.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230600,
+            "full_index": "230600V",
+            "name": "SENEVIRATHNE U.S.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230601,
+            "full_index": "230601B",
+            "name": "SENEVIRATNE N.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230602,
+            "full_index": "230602E",
+            "name": "SENPURA H.H.Y.B.",
+            "group": "E8"
+        },
+        {
+            "index": 230603,
+            "full_index": "230603H",
+            "name": "SENURA V.G.K.",
+            "group": "E8"
+        },
+        {
+            "index": 230604,
+            "full_index": "230604L",
+            "name": "SEWWANDI H.A.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230605,
+            "full_index": "230605P",
+            "name": "SHAHITHYAN R.",
+            "group": "E8"
+        },
+        {
+            "index": 230606,
+            "full_index": "230606U",
+            "name": "SHAKEEL M.F.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230607,
+            "full_index": "230607A",
+            "name": "SHANMUGARAJAH S.",
+            "group": "E8"
+        },
+        {
+            "index": 230608,
+            "full_index": "230608D",
+            "name": "SHANTHA G.I.A.",
+            "group": "E8"
+        },
+        {
+            "index": 230609,
+            "full_index": "230609G",
+            "name": "SHANTHOSH S.",
+            "group": "E8"
+        },
+        {
+            "index": 230610,
+            "full_index": "230610C",
+            "name": "SHATHURJAN T.",
+            "group": "E8"
+        },
+        {
+            "index": 230611,
+            "full_index": "230611F",
+            "name": "SHAZAN M.S.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230612,
+            "full_index": "230612J",
+            "name": "SHAZVI A.S.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230613,
+            "full_index": "230613M",
+            "name": "SHEHAN M.N.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230614,
+            "full_index": "230614R",
+            "name": "SHOPITHAN R.",
+            "group": "E8"
+        },
+        {
+            "index": 230615,
+            "full_index": "230615V",
+            "name": "SILVA S.E.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230616,
+            "full_index": "230616B",
+            "name": "SILVA T.D.R.",
+            "group": "E8"
+        },
+        {
+            "index": 230617,
+            "full_index": "230617E",
+            "name": "SIRIBADDANA S.P.P.",
+            "group": "E8"
+        },
+        {
+            "index": 230618,
+            "full_index": "230618H",
+            "name": "SIVAKESAN J.",
+            "group": "E8"
+        },
+        {
+            "index": 230619,
+            "full_index": "230619L",
+            "name": "SIVANUJAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230620,
+            "full_index": "230620G",
+            "name": "SNEKAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230621,
+            "full_index": "230621K",
+            "name": "SOMARATHNA M.D.A.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230622,
+            "full_index": "230622N",
+            "name": "SOORIYAARACHCHI C.J.",
+            "group": "E8"
+        },
+        {
+            "index": 230623,
+            "full_index": "230623T",
+            "name": "SRIYATHURSHAN K.",
+            "group": "E8"
+        },
+        {
+            "index": 230624,
+            "full_index": "230624X",
+            "name": "SUBEETSHAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230625,
+            "full_index": "230625C",
+            "name": "SUBIDYA S.",
+            "group": "E8"
+        },
+        {
+            "index": 230626,
+            "full_index": "230626F",
+            "name": "SURAWEERA B.U.D.",
+            "group": "E8"
+        },
+        {
+            "index": 230627,
+            "full_index": "230627J",
+            "name": "SURAWEERA S.C.",
+            "group": "E8"
+        },
+        {
+            "index": 230628,
+            "full_index": "230628M",
+            "name": "SURAWEERA Y.H.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230629,
+            "full_index": "230629R",
+            "name": "TENNAKOON U.G.R.B.",
+            "group": "E8"
+        },
+        {
+            "index": 230630,
+            "full_index": "230630L",
+            "name": "THAARUSHAN S.",
+            "group": "E8"
+        },
+        {
+            "index": 230631,
+            "full_index": "230631P",
+            "name": "THABREW D.C.L.",
+            "group": "E8"
+        },
+        {
+            "index": 230632,
+            "full_index": "230632U",
+            "name": "THABREW K.K.J.",
+            "group": "E8"
+        },
+        {
+            "index": 230633,
+            "full_index": "230633A",
+            "name": "THADSHAKAN J.",
+            "group": "E8"
+        },
+        {
+            "index": 230634,
+            "full_index": "230634D",
+            "name": "THANUSKANTH S.",
+            "group": "E8"
+        },
+        {
+            "index": 230635,
+            "full_index": "230635G",
+            "name": "THARAKA A.K.P.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230636,
+            "full_index": "230636K",
+            "name": "THARUSHIKA G.K.E.",
+            "group": "E8"
+        },
+        {
+            "index": 230637,
+            "full_index": "230637N",
+            "name": "THAVINUHAN R.",
+            "group": "E8"
+        },
+        {
+            "index": 230638,
+            "full_index": "230638T",
+            "name": "THAYARATHAN V.",
+            "group": "E8"
+        },
+        {
+            "index": 230639,
+            "full_index": "230639X",
+            "name": "THEEKSHANA R.P.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230640,
+            "full_index": "230640R",
+            "name": "THEEPAK B.",
+            "group": "E8"
+        },
+        {
+            "index": 230641,
+            "full_index": "230641V",
+            "name": "THENNAKOON T.M.P.H.",
+            "group": "E8"
+        },
+        {
+            "index": 230642,
+            "full_index": "230642B",
+            "name": "THENNAKOON T.M.S.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230643,
+            "full_index": "230643E",
+            "name": "THENUJAN A.",
+            "group": "E8"
+        },
+        {
+            "index": 230644,
+            "full_index": "230644H",
+            "name": "THILAKARATHNA P.H.S.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230645,
+            "full_index": "230645L",
+            "name": "THILAKARATHNE GMH",
+            "group": "E8"
+        },
+        {
+            "index": 230646,
+            "full_index": "230646P",
+            "name": "THILAKARATHNE M.M.T.D.",
+            "group": "E8"
+        },
+        {
+            "index": 230647,
+            "full_index": "230647U",
+            "name": "THILAKSHAN B",
+            "group": "E8"
+        },
+        {
+            "index": 230648,
+            "full_index": "230648A",
+            "name": "THISERA M.H.V.D.H.",
+            "group": "E8"
+        },
+        {
+            "index": 230649,
+            "full_index": "230649D",
+            "name": "THUSANTH M.",
+            "group": "E8"
+        },
+        {
+            "index": 230650,
+            "full_index": "230650X",
+            "name": "UBEYSEKARA V.T.T.",
+            "group": "E8"
+        },
+        {
+            "index": 230651,
+            "full_index": "230651C",
+            "name": "UDAYANGA D.M.S.",
+            "group": "E8"
+        },
+        {
+            "index": 230652,
+            "full_index": "230652F",
+            "name": "UDAYANTHA P.D.L.",
+            "group": "E8"
+        },
+        {
+            "index": 230653,
+            "full_index": "230653J",
+            "name": "UDURAWANA K.M.H.B.M.",
+            "group": "E8"
+        },
+        {
+            "index": 230654,
+            "full_index": "230654M",
+            "name": "UMAIR A.",
+            "group": "E8"
+        },
+        {
+            "index": 230655,
+            "full_index": "230655R",
+            "name": "UMANAN N.",
+            "group": "E8"
+        },
+        {
+            "index": 230656,
+            "full_index": "230656V",
+            "name": "UMAYA A.K.N.",
+            "group": "E8"
+        },
+        {
+            "index": 230657,
+            "full_index": "230657B",
+            "name": "UMAYANGANA M.V.I.",
+            "group": "E9"
+        },
+        {
+            "index": 230658,
+            "full_index": "230658E",
+            "name": "UPEKA L.B.D.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230659,
+            "full_index": "230659H",
+            "name": "UPEKSHANI T.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230660,
+            "full_index": "230660D",
+            "name": "VAKEESAN S.",
+            "group": "E9"
+        },
+        {
+            "index": 230661,
+            "full_index": "230661G",
+            "name": "VIBILAASH N.",
+            "group": "E9"
+        },
+        {
+            "index": 230662,
+            "full_index": "230662K",
+            "name": "VIDANAGAMA S.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230663,
+            "full_index": "230663N",
+            "name": "VIDUNIMA K.K.L.",
+            "group": "E9"
+        },
+        {
+            "index": 230664,
+            "full_index": "230664T",
+            "name": "VIDUSARA J.A.P.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230665,
+            "full_index": "230665X",
+            "name": "VIDUSHAN K.G.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230666,
+            "full_index": "230666C",
+            "name": "VINODYA H.A.T.",
+            "group": "E9"
+        },
+        {
+            "index": 230667,
+            "full_index": "230667F",
+            "name": "VIRUSAN T.",
+            "group": "E9"
+        },
+        {
+            "index": 230668,
+            "full_index": "230668J",
+            "name": "VISHMINI L.H.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230669,
+            "full_index": "230669M",
+            "name": "VISHUDHDHA P.G.T.",
+            "group": "E9"
+        },
+        {
+            "index": 230670,
+            "full_index": "230670H",
+            "name": "VISHULA J.",
+            "group": "E9"
+        },
+        {
+            "index": 230671,
+            "full_index": "230671L",
+            "name": "VITHANAGE H.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230672,
+            "full_index": "230672P",
+            "name": "VITHANAGE H.Y.R.",
+            "group": "E9"
+        },
+        {
+            "index": 230673,
+            "full_index": "230673U",
+            "name": "VITHANAGE O.V.",
+            "group": "E9"
+        },
+        {
+            "index": 230674,
+            "full_index": "230674A",
+            "name": "VITHANAGE R.P.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230675,
+            "full_index": "230675D",
+            "name": "VITHANAGE S.V.C.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230676,
+            "full_index": "230676G",
+            "name": "VITHARANA K.W.S.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230677,
+            "full_index": "230677K",
+            "name": "WADUGE A.W.S.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230678,
+            "full_index": "230678N",
+            "name": "WAIDYASEKARA R.W.H.P.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230679,
+            "full_index": "230679T",
+            "name": "WALAKULUARACHCHI D.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230680,
+            "full_index": "230680M",
+            "name": "WANIGASUNDARA W.M.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230681,
+            "full_index": "230681R",
+            "name": "WANIGATHUNGA W.A.A.T.",
+            "group": "E9"
+        },
+        {
+            "index": 230682,
+            "full_index": "230682V",
+            "name": "WANNIARACHCHI R.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230683,
+            "full_index": "230683B",
+            "name": "WANNINAYAKA W.M.S.A.",
+            "group": "E9"
+        },
+        {
+            "index": 230684,
+            "full_index": "230684E",
+            "name": "WANSANDI M.G.J.",
+            "group": "E9"
+        },
+        {
+            "index": 230685,
+            "full_index": "230685H",
+            "name": "WARUSHAVITHANA N.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230686,
+            "full_index": "230686L",
+            "name": "WATTEWEWA W.M.J.C.",
+            "group": "E9"
+        },
+        {
+            "index": 230687,
+            "full_index": "230687P",
+            "name": "WEDAMESTRIGE A.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230688,
+            "full_index": "230688U",
+            "name": "WEERAKKODY W.A.K.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230689,
+            "full_index": "230689A",
+            "name": "WEERAKOON A.H.T.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230690,
+            "full_index": "230690T",
+            "name": "WEERAKOON D.C.R.",
+            "group": "E9"
+        },
+        {
+            "index": 230691,
+            "full_index": "230691X",
+            "name": "WEERAKOON N.M.S.U.",
+            "group": "E9"
+        },
+        {
+            "index": 230692,
+            "full_index": "230692C",
+            "name": "WEERAKOON W.M.S.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230693,
+            "full_index": "230693F",
+            "name": "WEERARATHNA T.Y.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230694,
+            "full_index": "230694J",
+            "name": "WEERASEKARA R.V.",
+            "group": "E9"
+        },
+        {
+            "index": 230695,
+            "full_index": "230695M",
+            "name": "WEERASINGHA M.A.K.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230696,
+            "full_index": "230696R",
+            "name": "WEERASINGHE G.D.J.",
+            "group": "E9"
+        },
+        {
+            "index": 230697,
+            "full_index": "230697V",
+            "name": "WEERASINGHE J.A.H.R.",
+            "group": "E9"
+        },
+        {
+            "index": 230698,
+            "full_index": "230698B",
+            "name": "WEERAWARDHANE M.G.N.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230699,
+            "full_index": "230699E",
+            "name": "WEERAWARNA S.B.M.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230700,
+            "full_index": "230700D",
+            "name": "WELIWATHTHA W.T.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230701,
+            "full_index": "230701G",
+            "name": "WETTASINGHE V.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230702,
+            "full_index": "230702K",
+            "name": "WICKRAMAARACHCHI W.A.A.U.",
+            "group": "E9"
+        },
+        {
+            "index": 230703,
+            "full_index": "230703N",
+            "name": "WICKRAMARATNA S.I.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230704,
+            "full_index": "230704T",
+            "name": "WICKRAMARATNE W.P.G.A.",
+            "group": "E9"
+        },
+        {
+            "index": 230705,
+            "full_index": "230705X",
+            "name": "WICKRAMASINGHE B.G.U.A.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230706,
+            "full_index": "230706C",
+            "name": "WICKRAMASINGHE D.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230707,
+            "full_index": "230707F",
+            "name": "WICKRAMASINGHE G.K.G.M.K.",
+            "group": "E9"
+        },
+        {
+            "index": 230708,
+            "full_index": "230708J",
+            "name": "WICKRAMASINGHE M.M.A.",
+            "group": "E9"
+        },
+        {
+            "index": 230709,
+            "full_index": "230709M",
+            "name": "WICKRAMASINGHE W.G.I.W",
+            "group": "E9"
+        },
+        {
+            "index": 230710,
+            "full_index": "230710H",
+            "name": "WICKRAMASINGHE W.M.C.L.",
+            "group": "E9"
+        },
+        {
+            "index": 230711,
+            "full_index": "230711L",
+            "name": "WICKRAMATHILAKA B.G.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230712,
+            "full_index": "230712P",
+            "name": "WIDMANTHI E.L.S.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230713,
+            "full_index": "230713U",
+            "name": "WIHANGARIDHMA M.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230714,
+            "full_index": "230714A",
+            "name": "WIJAYARATHNE T.W.O.A.",
+            "group": "E9"
+        },
+        {
+            "index": 230715,
+            "full_index": "230715D",
+            "name": "WIJAYAWARDHANA G.T.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230716,
+            "full_index": "230716G",
+            "name": "WIJEBANDARA P.M.S.L.",
+            "group": "E9"
+        },
+        {
+            "index": 230717,
+            "full_index": "230717K",
+            "name": "WIJEPALA W.A.M.T.J.B.",
+            "group": "E9"
+        },
+        {
+            "index": 230718,
+            "full_index": "230718N",
+            "name": "WIJERATHNA W.G.D.U.",
+            "group": "E9"
+        },
+        {
+            "index": 230719,
+            "full_index": "230719T",
+            "name": "WIJERATHNE M.G.K.",
+            "group": "E9"
+        },
+        {
+            "index": 230720,
+            "full_index": "230720M",
+            "name": "WIJERATNA W.H.I.",
+            "group": "E9"
+        },
+        {
+            "index": 230721,
+            "full_index": "230721R",
+            "name": "WIJESEKARA G.S.U.",
+            "group": "E9"
+        },
+        {
+            "index": 230722,
+            "full_index": "230722V",
+            "name": "WIJESEKARA M.S.T.",
+            "group": "E9"
+        },
+        {
+            "index": 230723,
+            "full_index": "230723B",
+            "name": "WIJESEKARA W.A.A.P.",
+            "group": "E9"
+        },
+        {
+            "index": 230724,
+            "full_index": "230724E",
+            "name": "WIJESEKARA W.A.G.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230725,
+            "full_index": "230725H",
+            "name": "WIJESINGHE D.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230726,
+            "full_index": "230726L",
+            "name": "WIJESINGHE U.G.S.K.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230727,
+            "full_index": "230727P",
+            "name": "WIJESINGHE W.A.P.W.",
+            "group": "E9"
+        },
+        {
+            "index": 230728,
+            "full_index": "230728U",
+            "name": "WIJESINGHE W.A.S.S.M.",
+            "group": "E9"
+        },
+        {
+            "index": 230729,
+            "full_index": "230729A",
+            "name": "WIJESINGHE W.L.P.I.D.",
+            "group": "E9"
+        },
+        {
+            "index": 230730,
+            "full_index": "230730T",
+            "name": "WIJETHILAKA J.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230731,
+            "full_index": "230731X",
+            "name": "WIJEWICKRAMA U.L.A.I.",
+            "group": "E9"
+        },
+        {
+            "index": 230732,
+            "full_index": "230732C",
+            "name": "WIMALASIRI W.A.K.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230733,
+            "full_index": "230733F",
+            "name": "WISHVAJITH A.A.J.",
+            "group": "E9"
+        },
+        {
+            "index": 230734,
+            "full_index": "230734J",
+            "name": "WITHANA W.D.P.S.",
+            "group": "E9"
+        },
+        {
+            "index": 230735,
+            "full_index": "230735M",
+            "name": "WITHANAGE G.D.N.",
+            "group": "E9"
+        },
+        {
+            "index": 230736,
+            "full_index": "230736R",
+            "name": "WITHANAGE M.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230737,
+            "full_index": "230737V",
+            "name": "YUTHISTHIRAN P.",
+            "group": "E9"
+        },
+        {
+            "index": 230738,
+            "full_index": "230738B",
+            "name": "ZIHAR K.R.H.",
+            "group": "E9"
+        },
+        {
+            "index": 230739,
+            "full_index": "230739E",
+            "name": "PERERA S.S.N.A.",
+            "group": "E9"
+        },
+        {
+            "index": 230740,
+            "full_index": "230740A",
+            "name": "PATHIRANA U.P.J.T.",
+            "group": "E9"
+        },
+        {
+            "index": 230741,
+            "full_index": "230741D",
+            "name": "DIMITHRA S.J.",
+            "group": "E9"
+        },
+        {
+            "index": 230742,
+            "full_index": "230742G",
+            "name": "DE SILVA O.I.P.V.",
+            "group": "E9"
+        },
+        {
+            "index": 230743,
+            "full_index": "230743K",
+            "name": "KUMAR N.D.",
+            "group": "E9"
+        }
+    ],
+    "em": [
+        {
+            "index": 230801,
+            "full_index": "230801M",
+            "name": "AHAMADH A.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230802,
+            "full_index": "230802R",
+            "name": "AKALANKA K.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230803,
+            "full_index": "230803V",
+            "name": "ANDARSON M.A.R.",
+            "group": "EM"
+        },
+        {
+            "index": 230804,
+            "full_index": "230804B",
+            "name": "ARACHCHI V.V.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230805,
+            "full_index": "230805E",
+            "name": "ARIYAWANSHA K.M.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230806,
+            "full_index": "230806H",
+            "name": "ATHTHANAYAKA A.M.N.K.",
+            "group": "EM"
+        },
+        {
+            "index": 230807,
+            "full_index": "230807L",
+            "name": "ATHUKORALA A.L.C.",
+            "group": "EM"
+        },
+        {
+            "index": 230808,
+            "full_index": "230808P",
+            "name": "BANDARA H.M.T.E.",
+            "group": "EM"
+        },
+        {
+            "index": 230809,
+            "full_index": "230809U",
+            "name": "BANDARA V.M.S.S.B.",
+            "group": "EM"
+        },
+        {
+            "index": 230810,
+            "full_index": "230810N",
+            "name": "BOPITIYA A.V.",
+            "group": "EM"
+        },
+        {
+            "index": 230811,
+            "full_index": "230811T",
+            "name": "CHANDRALAL H.E.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230812,
+            "full_index": "230812X",
+            "name": "DAMBAGOLLA D.G.S.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230813,
+            "full_index": "230813C",
+            "name": "DASANAYAKA D.M.T.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230814,
+            "full_index": "230814F",
+            "name": "DE SILVA N.D.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230815,
+            "full_index": "230815J",
+            "name": "DENUWAN H.D.T.",
+            "group": "EM"
+        },
+        {
+            "index": 230816,
+            "full_index": "230816M",
+            "name": "EDIRISINGHE L.C.",
+            "group": "EM"
+        },
+        {
+            "index": 230817,
+            "full_index": "230817R",
+            "name": "EKANAYAKA P.A.J.",
+            "group": "EM"
+        },
+        {
+            "index": 230818,
+            "full_index": "230818V",
+            "name": "ELVITIGALA Y.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230819,
+            "full_index": "230819B",
+            "name": "FERNANDO W.W.D.K.",
+            "group": "EM"
+        },
+        {
+            "index": 230820,
+            "full_index": "230820U",
+            "name": "HERATH H.M.A.A.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230821,
+            "full_index": "230821A",
+            "name": "HERATH H.M.L.I.",
+            "group": "EM"
+        },
+        {
+            "index": 230822,
+            "full_index": "230822D",
+            "name": "HIRIPITIYA H.K.P.",
+            "group": "EM"
+        },
+        {
+            "index": 230823,
+            "full_index": "230823G",
+            "name": "JAYARATHNA A.A.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230824,
+            "full_index": "230824K",
+            "name": "JAYASIRI U.G.R.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230825,
+            "full_index": "230825N",
+            "name": "JAYAWARDHANA R.M.M.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230826,
+            "full_index": "230826T",
+            "name": "JEHEERAN P.",
+            "group": "EM"
+        },
+        {
+            "index": 230827,
+            "full_index": "230827X",
+            "name": "JERUSAN J.",
+            "group": "EM"
+        },
+        {
+            "index": 230828,
+            "full_index": "230828C",
+            "name": "JEYASURIYAR T.",
+            "group": "EM"
+        },
+        {
+            "index": 230829,
+            "full_index": "230829F",
+            "name": "KANDAGE K.D.M.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230830,
+            "full_index": "230830B",
+            "name": "KARIYAWASAM P.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230831,
+            "full_index": "230831E",
+            "name": "KARSHIKAN V.",
+            "group": "EM"
+        },
+        {
+            "index": 230832,
+            "full_index": "230832H",
+            "name": "KAUSHALYA A.L.G.V.",
+            "group": "EM"
+        },
+        {
+            "index": 230833,
+            "full_index": "230833L",
+            "name": "KAVIRAJA G.K.M.D.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230834,
+            "full_index": "230834P",
+            "name": "KRISSHIKA.G",
+            "group": "EM"
+        },
+        {
+            "index": 230835,
+            "full_index": "230835U",
+            "name": "KULASINGHE K.B.S.N.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230836,
+            "full_index": "230836A",
+            "name": "KUMARA H.P.B.P.",
+            "group": "EM"
+        },
+        {
+            "index": 230837,
+            "full_index": "230837D",
+            "name": "LIYANAARACHCHI L.A.S.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230838,
+            "full_index": "230838G",
+            "name": "LOKUGEEGANA N.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230839,
+            "full_index": "230839K",
+            "name": "MADUSHANKE G.K.",
+            "group": "EM"
+        },
+        {
+            "index": 230841,
+            "full_index": "230841J",
+            "name": "MARWA L.F.",
+            "group": "EM"
+        },
+        {
+            "index": 230842,
+            "full_index": "230842M",
+            "name": "NAWANJANA K.V.G.N.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230843,
+            "full_index": "230843R",
+            "name": "NIRANJANA B.",
+            "group": "EM"
+        },
+        {
+            "index": 230844,
+            "full_index": "230844V",
+            "name": "PRAMOD B.L.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230845,
+            "full_index": "230845B",
+            "name": "PREMARATHNA P.P.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230846,
+            "full_index": "230846E",
+            "name": "PREMATHILAKA A.P.D.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230847,
+            "full_index": "230847H",
+            "name": "RAJKUMAR C.T.",
+            "group": "EM"
+        },
+        {
+            "index": 230848,
+            "full_index": "230848L",
+            "name": "RAMYASIRI W.A.U.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230849,
+            "full_index": "230849P",
+            "name": "RANDEEPA G.R.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230850,
+            "full_index": "230850K",
+            "name": "REHENUSARA P.H.",
+            "group": "EM"
+        },
+        {
+            "index": 230851,
+            "full_index": "230851N",
+            "name": "SAKEEL F.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230852,
+            "full_index": "230852T",
+            "name": "SAMPATH H.H.C.",
+            "group": "EM"
+        },
+        {
+            "index": 230854,
+            "full_index": "230854C",
+            "name": "SATHEESKUMAR M.",
+            "group": "EM"
+        },
+        {
+            "index": 230855,
+            "full_index": "230855F",
+            "name": "SATHURSHAN D.",
+            "group": "EM"
+        },
+        {
+            "index": 230856,
+            "full_index": "230856J",
+            "name": "SENARATHNE H.P.S.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230857,
+            "full_index": "230857M",
+            "name": "SOMASUTHAN S.",
+            "group": "EM"
+        },
+        {
+            "index": 230858,
+            "full_index": "230858R",
+            "name": "THAKSIKA G.",
+            "group": "EM"
+        },
+        {
+            "index": 230859,
+            "full_index": "230859V",
+            "name": "WEERARATHNA B.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230860,
+            "full_index": "230860P",
+            "name": "WIJEGUNAWARDANA P.A.R.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230862,
+            "full_index": "230862A",
+            "name": "BUDDHADASA B.M.K.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230864,
+            "full_index": "230864G",
+            "name": "GUNASEKARA H.M.S.L.",
+            "group": "EM"
+        },
+        {
+            "index": 230865,
+            "full_index": "230865K",
+            "name": "INDUWARA K.A.G.C.",
+            "group": "EM"
+        },
+        {
+            "index": 230866,
+            "full_index": "230866N",
+            "name": "JAYAWARDHANA L.M.",
+            "group": "EM"
+        },
+        {
+            "index": 230867,
+            "full_index": "230867T",
+            "name": "KAVEESHA E.L.N.",
+            "group": "EM"
+        },
+        {
+            "index": 230868,
+            "full_index": "230868X",
+            "name": "KODIKARA K.A.S.R.",
+            "group": "EM"
+        },
+        {
+            "index": 230869,
+            "full_index": "230869C",
+            "name": "LAKNARA B.D.R.",
+            "group": "EM"
+        },
+        {
+            "index": 230870,
+            "full_index": "230870V",
+            "name": "SITHUMINI J.A.D.",
+            "group": "EM"
+        },
+        {
+            "index": 230871,
+            "full_index": "230871B",
+            "name": "SUJEEVAN V.",
+            "group": "EM"
+        },
+        {
+            "index": 230872,
+            "full_index": "230872E",
+            "name": "WIJESINGHE R.S.P.",
+            "group": "EM"
+        },
+        {
+            "index": 230873,
+            "full_index": "230873H",
+            "name": "WIJETHUNGA P.M.S.S.",
+            "group": "EM"
+        },
+        {
+            "index": 230874,
+            "full_index": "230874L",
+            "name": "NIRMAL P.V.K.",
+            "group": "EM"
+        },
+        {
+            "index": 230876,
+            "full_index": "230876U",
+            "name": "RAJAPAKSHA R.D.D.R.",
+            "group": "EM"
+        },
+        {
+            "index": 230877,
+            "full_index": "230877A",
+            "name": "GAMAGE S.M.",
+            "group": "EM"
+        }
+    ],
+    "tm": [
+        {
+            "index": 231001,
+            "full_index": "231001T",
+            "name": "AATHITHTHAN T.",
+            "group": "TM"
+        },
+        {
+            "index": 231002,
+            "full_index": "231002X",
+            "name": "ABESINGHE A.K.S.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231003,
+            "full_index": "231003C",
+            "name": "ALAHAKOON A.M.O.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231004,
+            "full_index": "231004F",
+            "name": "AMINDI K.A.K.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231005,
+            "full_index": "231005J",
+            "name": "ARIYAWANSA S.C.K.",
+            "group": "TM"
+        },
+        {
+            "index": 231006,
+            "full_index": "231006M",
+            "name": "ARIYAWANSHA U.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231007,
+            "full_index": "231007R",
+            "name": "ATHTHANAYAKA A.A.T.B.",
+            "group": "TM"
+        },
+        {
+            "index": 231008,
+            "full_index": "231008V",
+            "name": "ATHTHANAYAKA A.M.D.N.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231009,
+            "full_index": "231009B",
+            "name": "BAMBARAVANAGE T.D.",
+            "group": "TM"
+        },
+        {
+            "index": 231010,
+            "full_index": "231010U",
+            "name": "BANDARA K.M.J.M.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231011,
+            "full_index": "231011A",
+            "name": "BANDARA W.G.N.B.",
+            "group": "TM"
+        },
+        {
+            "index": 231013,
+            "full_index": "231013G",
+            "name": "DE ALWIS H.P.J.",
+            "group": "TM"
+        },
+        {
+            "index": 231014,
+            "full_index": "231014K",
+            "name": "DEMINDA D.G.U.",
+            "group": "TM"
+        },
+        {
+            "index": 231015,
+            "full_index": "231015N",
+            "name": "DILMINI T.M.Y.",
+            "group": "TM"
+        },
+        {
+            "index": 231016,
+            "full_index": "231016T",
+            "name": "DILUMINDA B.M.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231017,
+            "full_index": "231017X",
+            "name": "DISSANAYAKA W.D.M.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231018,
+            "full_index": "231018C",
+            "name": "DISSANAYAKE D.M.A.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231019,
+            "full_index": "231019F",
+            "name": "DULARA M.M.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231020,
+            "full_index": "231020B",
+            "name": "EDIRIMANNA R.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231021,
+            "full_index": "231021E",
+            "name": "EKANAYAKA E.M.T.T.",
+            "group": "TM"
+        },
+        {
+            "index": 231023,
+            "full_index": "231023L",
+            "name": "EKANAYAKE P.G.I.W.",
+            "group": "TM"
+        },
+        {
+            "index": 231024,
+            "full_index": "231024P",
+            "name": "GUNASEKARA G.G.K.T.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231025,
+            "full_index": "231025U",
+            "name": "GUNASEKARA M.W.W.",
+            "group": "TM"
+        },
+        {
+            "index": 231026,
+            "full_index": "231026A",
+            "name": "GUNATHILAKA D.M.H.Y.",
+            "group": "TM"
+        },
+        {
+            "index": 231027,
+            "full_index": "231027D",
+            "name": "GUNAWARDANA V.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231028,
+            "full_index": "231028G",
+            "name": "GUNAWARDHANA S.N.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231029,
+            "full_index": "231029K",
+            "name": "HERATH H.M.S.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231030,
+            "full_index": "231030F",
+            "name": "INSHAF A.W.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231031,
+            "full_index": "231031J",
+            "name": "JAYADEEP M.A.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231032,
+            "full_index": "231032M",
+            "name": "JAYALATH J.M.D.T.",
+            "group": "TM"
+        },
+        {
+            "index": 231033,
+            "full_index": "231033R",
+            "name": "KALANSOORIYA T.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231034,
+            "full_index": "231034V",
+            "name": "KARIYAWASAM K.M.G.S.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231035,
+            "full_index": "231035B",
+            "name": "KARUNARATHNA H.P.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231036,
+            "full_index": "231036E",
+            "name": "KAVINDYA P.D.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231037,
+            "full_index": "231037H",
+            "name": "KAVITHRAN M.",
+            "group": "TM"
+        },
+        {
+            "index": 231038,
+            "full_index": "231038L",
+            "name": "KIRUSHANTHAN S.T.",
+            "group": "TM"
+        },
+        {
+            "index": 231039,
+            "full_index": "231039P",
+            "name": "KUMARA M.S.R.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231040,
+            "full_index": "231040K",
+            "name": "KURUPPU K.D.Y.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231041,
+            "full_index": "231041N",
+            "name": "LAKMALI W.H.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231042,
+            "full_index": "231042T",
+            "name": "LANKA M.M.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231043,
+            "full_index": "231043X",
+            "name": "LINAL J.G.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231044,
+            "full_index": "231044C",
+            "name": "MOHAMED M.M.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231045,
+            "full_index": "231045F",
+            "name": "MOHOMED M.R.I.",
+            "group": "TM"
+        },
+        {
+            "index": 231046,
+            "full_index": "231046J",
+            "name": "NADEESHANI R.D.",
+            "group": "TM"
+        },
+        {
+            "index": 231047,
+            "full_index": "231047M",
+            "name": "NAMARATHNA N.B.A.R.G.",
+            "group": "TM"
+        },
+        {
+            "index": 231048,
+            "full_index": "231048R",
+            "name": "NIRANTHARA K.R.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231049,
+            "full_index": "231049V",
+            "name": "PADMAPERUMA O.R.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231050,
+            "full_index": "231050P",
+            "name": "PATHIRANA G.P.S.L.",
+            "group": "TM"
+        },
+        {
+            "index": 231051,
+            "full_index": "231051U",
+            "name": "PATHIRANA R.P.P.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231052,
+            "full_index": "231052A",
+            "name": "PERERA H.H.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231053,
+            "full_index": "231053D",
+            "name": "PRABHASHWARA B.A.D.T.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231054,
+            "full_index": "231054G",
+            "name": "PRABODINI W.A.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231055,
+            "full_index": "231055K",
+            "name": "RAMANAYAKA T.V.C.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231056,
+            "full_index": "231056N",
+            "name": "RUPASINGHE B.H.L.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231057,
+            "full_index": "231057T",
+            "name": "SAWBHAGYA K.G.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231058,
+            "full_index": "231058X",
+            "name": "SENANAYAKA W.S.A.A.M.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231059,
+            "full_index": "231059C",
+            "name": "SHASHINTHA J.D.K.",
+            "group": "TM"
+        },
+        {
+            "index": 231060,
+            "full_index": "231060V",
+            "name": "SILVA A.T.R.",
+            "group": "TM"
+        },
+        {
+            "index": 231061,
+            "full_index": "231061B",
+            "name": "SILVA P.C.T.",
+            "group": "TM"
+        },
+        {
+            "index": 231062,
+            "full_index": "231062E",
+            "name": "SIVAKUMAR A.",
+            "group": "TM"
+        },
+        {
+            "index": 231063,
+            "full_index": "231063H",
+            "name": "SULAKSHANA K.G.P.",
+            "group": "TM"
+        },
+        {
+            "index": 231064,
+            "full_index": "231064L",
+            "name": "THANUSHAYAN T.",
+            "group": "TM"
+        },
+        {
+            "index": 231065,
+            "full_index": "231065P",
+            "name": "THARAKA K.A.G.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231066,
+            "full_index": "231066U",
+            "name": "THILAKARATHNE T.M.K.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231067,
+            "full_index": "231067A",
+            "name": "THILAKSHANA W.P.T.",
+            "group": "TM"
+        },
+        {
+            "index": 231068,
+            "full_index": "231068D",
+            "name": "THIVAKARI K.",
+            "group": "TM"
+        },
+        {
+            "index": 231069,
+            "full_index": "231069G",
+            "name": "UKWATHTHA W.A.M.V.",
+            "group": "TM"
+        },
+        {
+            "index": 231070,
+            "full_index": "231070C",
+            "name": "VIDUSINI N.W.H.W.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231071,
+            "full_index": "231071F",
+            "name": "WADUGE W.G.S.N.B.",
+            "group": "TM"
+        },
+        {
+            "index": 231072,
+            "full_index": "231072J",
+            "name": "WAGAWATTE W.C.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231073,
+            "full_index": "231073M",
+            "name": "WIJEKOON W.M.M.A.",
+            "group": "TM"
+        },
+        {
+            "index": 231074,
+            "full_index": "231074R",
+            "name": "WIJERATHNA P.H.S.M.",
+            "group": "TM"
+        },
+        {
+            "index": 231075,
+            "full_index": "231075V",
+            "name": "YAPA Y.M.U.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231076,
+            "full_index": "231076B",
+            "name": "ANDRAMANA D.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231077,
+            "full_index": "231077E",
+            "name": "FERDINANDIS D.R.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231078,
+            "full_index": "231078H",
+            "name": "FERNANDO G.N.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231079,
+            "full_index": "231079L",
+            "name": "GONAGALA S.V.",
+            "group": "TM"
+        },
+        {
+            "index": 231080,
+            "full_index": "231080G",
+            "name": "JEYAWENDHAR S.",
+            "group": "TM"
+        },
+        {
+            "index": 231081,
+            "full_index": "231081K",
+            "name": "JUVANITHAN M.",
+            "group": "TM"
+        },
+        {
+            "index": 231082,
+            "full_index": "231082N",
+            "name": "KALUPAHANA K.S.U.K.",
+            "group": "TM"
+        },
+        {
+            "index": 231083,
+            "full_index": "231083T",
+            "name": "MALINGA H.W.A.",
+            "group": "TM"
+        },
+        {
+            "index": 231084,
+            "full_index": "231084X",
+            "name": "MATHIMAARAN I.",
+            "group": "TM"
+        },
+        {
+            "index": 231085,
+            "full_index": "231085C",
+            "name": "MENDIS D.K.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231086,
+            "full_index": "231086F",
+            "name": "RAMASINGHE S.S.",
+            "group": "TM"
+        },
+        {
+            "index": 231087,
+            "full_index": "231087J",
+            "name": "SAPUTHANTHRI S.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231088,
+            "full_index": "231088M",
+            "name": "SATHSARANI H.D.M.K.",
+            "group": "TM"
+        },
+        {
+            "index": 231089,
+            "full_index": "231089R",
+            "name": "THASHMIKA T.G.H.",
+            "group": "TM"
+        },
+        {
+            "index": 231090,
+            "full_index": "231090L",
+            "name": "MADUWEGE S.Y.",
+            "group": "TM"
+        },
+        {
+            "index": 231091,
+            "full_index": "231091P",
+            "name": "RUVINDUNI S.A.C.",
+            "group": "TM"
+        },
+        {
+            "index": 231092,
+            "full_index": "231092U",
+            "name": "THARUKA H.K.E.N.",
+            "group": "TM"
+        },
+        {
+            "index": 231093,
+            "full_index": "231093A",
+            "name": "DISSANAYAKA G.D.C.D.",
+            "group": "TM"
+        },
+        {
+            "index": 231095,
+            "full_index": "231095G",
+            "name": "J.THASALINY",
+            "group": "TM"
+        }
+    ],
+    "tmle": [
+        {
+            "index": 231401,
+            "full_index": "231401U",
+            "name": "AASKIN N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231402,
+            "full_index": "231402A",
+            "name": "AHAMED G.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231403,
+            "full_index": "231403D",
+            "name": "ALOKA W.A.A.P.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231404,
+            "full_index": "231404G",
+            "name": "ANJALIKA J.M.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231405,
+            "full_index": "231405K",
+            "name": "ANTHONY K.S.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231406,
+            "full_index": "231406N",
+            "name": "ARIYAPALA M.H.K.K.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231407,
+            "full_index": "231407T",
+            "name": "AROOS S.M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231408,
+            "full_index": "231408X",
+            "name": "ASWELLA A.P.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231409,
+            "full_index": "231409C",
+            "name": "BANDARA K.K.G.J.P.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231410,
+            "full_index": "231410V",
+            "name": "BANDARA M.P.G.L.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231411,
+            "full_index": "231411B",
+            "name": "BANDARA O.T.M.D.P.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231413,
+            "full_index": "231413H",
+            "name": "DASANAYAKE S.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231414,
+            "full_index": "231414L",
+            "name": "DE SILVA D.W.M.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231415,
+            "full_index": "231415P",
+            "name": "DEEMANTHA M.M.T.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231416,
+            "full_index": "231416U",
+            "name": "DESHAN R.S.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231417,
+            "full_index": "231417A",
+            "name": "DESHAPRIYA M.S.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231418,
+            "full_index": "231418D",
+            "name": "DILHARA A.T.H.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231419,
+            "full_index": "231419G",
+            "name": "DINETHMA H.D.R.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231420,
+            "full_index": "231420C",
+            "name": "DISSANAYAKA D.M.S.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231421,
+            "full_index": "231421F",
+            "name": "DISSANAYAKE D.J.G.R.G.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231422,
+            "full_index": "231422J",
+            "name": "DORATIYAWA R.W.B.A.W.J.P.B.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231423,
+            "full_index": "231423M",
+            "name": "EKANAYAKA E.M.S.S.B.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231424,
+            "full_index": "231424R",
+            "name": "FERNANDO K.S.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231425,
+            "full_index": "231425V",
+            "name": "FERNANDO S.V.I.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231426,
+            "full_index": "231426B",
+            "name": "FLETCHER S.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231427,
+            "full_index": "231427E",
+            "name": "GALGAMUWA J.M.D.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231428,
+            "full_index": "231428H",
+            "name": "GOMES P.D.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231429,
+            "full_index": "231429L",
+            "name": "GUNARATHNA M.V.N.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231430,
+            "full_index": "231430G",
+            "name": "GUNASEKARA G.H.T.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231431,
+            "full_index": "231431K",
+            "name": "HABILESHAN M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231432,
+            "full_index": "231432N",
+            "name": "HANSAJA K.L.A.Y.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231433,
+            "full_index": "231433T",
+            "name": "HERATH H.M.B.P.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231434,
+            "full_index": "231434X",
+            "name": "HIRUNIMA G.D.V.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231435,
+            "full_index": "231435C",
+            "name": "JAYALUXMITHER V.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231436,
+            "full_index": "231436F",
+            "name": "JAYASEKARA J.M.T.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231437,
+            "full_index": "231437J",
+            "name": "JAYASINGHA S.A.D.R.C.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231438,
+            "full_index": "231438M",
+            "name": "JAYASINGHE P.A.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231439,
+            "full_index": "231439R",
+            "name": "JAYAWARDHENE V.P.J.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231440,
+            "full_index": "231440L",
+            "name": "KAAVIYAN S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231441,
+            "full_index": "231441P",
+            "name": "KAJANAN K.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231442,
+            "full_index": "231442U",
+            "name": "KAJURAN M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231443,
+            "full_index": "231443A",
+            "name": "KATHRIARACHCHI S.H.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231444,
+            "full_index": "231444D",
+            "name": "KAUSHALYA W.S.P.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231445,
+            "full_index": "231445G",
+            "name": "KODIKARA K.A.S.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231446,
+            "full_index": "231446K",
+            "name": "LATHSANDU K.G.C.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231447,
+            "full_index": "231447N",
+            "name": "LEWDENIYA L.T.M.B.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231448,
+            "full_index": "231448T",
+            "name": "MAHAARACHCHI Y.N",
+            "group": "TMLE"
+        },
+        {
+            "index": 231449,
+            "full_index": "231449X",
+            "name": "MAHAMALAGE M.H.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231450,
+            "full_index": "231450R",
+            "name": "MARASINGHE M.A.D.T.D.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231451,
+            "full_index": "231451V",
+            "name": "MOTTUWELA D.H.G.M.B.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231452,
+            "full_index": "231452B",
+            "name": "NASHATH N.M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231453,
+            "full_index": "231453E",
+            "name": "NAVANJANA W.P.L.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231454,
+            "full_index": "231454H",
+            "name": "NAVINDA T.G.I.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231455,
+            "full_index": "231455L",
+            "name": "PENUKA L.G.R.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231456,
+            "full_index": "231456P",
+            "name": "PIRANAVAN M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231457,
+            "full_index": "231457U",
+            "name": "PIYATHILAKA M.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231458,
+            "full_index": "231458A",
+            "name": "RANASINGHE R.A.S.H.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231459,
+            "full_index": "231459D",
+            "name": "RANDIMAL U.D.H",
+            "group": "TMLE"
+        },
+        {
+            "index": 231460,
+            "full_index": "231460X",
+            "name": "RATHNAYAKA R.M.N.T.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231461,
+            "full_index": "231461C",
+            "name": "RATHNAYAKE A.K.M.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231462,
+            "full_index": "231462F",
+            "name": "RATHWATTHA R.M.O.V.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231463,
+            "full_index": "231463J",
+            "name": "RUKSHIKAN N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231464,
+            "full_index": "231464M",
+            "name": "SAHEER M.S.M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231465,
+            "full_index": "231465R",
+            "name": "SAJISHAN S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231466,
+            "full_index": "231466V",
+            "name": "SANJANA G.S.I.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231467,
+            "full_index": "231467B",
+            "name": "SANJAYA M.A.D.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231468,
+            "full_index": "231468E",
+            "name": "SAYURANGA D.L.D.M.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231469,
+            "full_index": "231469H",
+            "name": "SELIYAN U.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231470,
+            "full_index": "231470D",
+            "name": "SILVA G.M.O.H.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231471,
+            "full_index": "231471G",
+            "name": "SOORIYAPPERUMA C.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231472,
+            "full_index": "231472K",
+            "name": "SUNATH S.E.P.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231473,
+            "full_index": "231473N",
+            "name": "THARUSHAKA K.C.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231474,
+            "full_index": "231474T",
+            "name": "THILAKARATHNA P.A.U.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231475,
+            "full_index": "231475X",
+            "name": "WATHTHEGEDARA A.W.G.D.T.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231476,
+            "full_index": "231476C",
+            "name": "WATHUHENA W.G.N.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231477,
+            "full_index": "231477F",
+            "name": "WEERASINGHE N.T.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231478,
+            "full_index": "231478J",
+            "name": "WEERASINGHE P.A.D.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231479,
+            "full_index": "231479M",
+            "name": "WICKRAMAGE M.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231480,
+            "full_index": "231480H",
+            "name": "WICKREMASINGHE W.G.R.S.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231481,
+            "full_index": "231481L",
+            "name": "WIJETUNGA W.M.S.H.B.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231482,
+            "full_index": "231482P",
+            "name": "SAMARAWEERA S.H.H.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231483,
+            "full_index": "231483U",
+            "name": "LAKSHAN U.K.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231484,
+            "full_index": "231484A",
+            "name": "GALLAGE V.A.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231485,
+            "full_index": "231485D",
+            "name": "MADHUBHASHANA P.A.P.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231486,
+            "full_index": "231486G",
+            "name": "SENARATHNA D.M.S.N.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231487,
+            "full_index": "231487K",
+            "name": "JAYASOORIYA J.M.D.G.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231488,
+            "full_index": "231488N",
+            "name": "AMARATHUNGA A.A.T.K.",
+            "group": "TMLE"
+        },
+        {
+            "index": 231489,
+            "full_index": "231489T",
+            "name": "KARUNARATHNA D.K.H.H.",
+            "group": "TMLE"
+        }
+    ]
+}
