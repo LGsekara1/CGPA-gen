@@ -11,3 +11,6 @@
   Select semester (1-3):
 - The excel files would be generated in data/output
 - The extended results would contain ranked data to a scale of 4.2
+
+
+❤️ Inspired by original work of [@Zunehfu](https://github.com/Zunehfu) at [uom-1st-sem-rankGen](https://github.com/LGsekara1/uom-1st-sem-rankGen.git)
