@@ -10,6 +10,7 @@
 
   Select semester (1-3):
 - The excel files would be generated in data/output
+- Current generated outputs sem1, sem2 and sem 3 (without FCOD as at 1/8/2025)
 - The extended results would contain ranked data to a scale of 4.2
 
 
