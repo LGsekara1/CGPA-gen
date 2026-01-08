@@ -1,0 +1,55 @@
+{
+  "sem_name": "sem3",
+  "courses": [
+    {
+      "code": "BM2210",
+      "name": "BDD",
+      "credits": 3
+    },
+    {
+      "code": "EN2014",
+      "name": "ELECTRONIC CIRCTUITS AND ANALYSIS",
+      "credits": 3
+    },
+    {
+      "code": "EN2054",
+      "name": "TELECOM",
+      "credits": 3
+    },
+    {
+      "code": "EN2063",
+      "name": "SIGNALS AND SYSTEMS",
+      "credits": 3
+    },
+    {
+      "code": "EN2091",
+      "name": "LABS",
+      "credits": 2
+    },
+    {
+      "code": "EN2130",
+      "name": "CDP",
+      "credits": 3
+    },
+    {
+      "code": "EN2533",
+      "name": "ROBOTICS DESIGN AND COMPETITION ",
+      "credits": 3
+    },
+    {
+      "code": "MA2014",
+      "name": "DE",
+      "credits": 2
+    },
+    {
+      "code": "MA2024",
+      "name": "CALC",
+      "credits": 2
+    },
+    {
+      "code": "MA3024",
+      "name": "NM",
+      "credits": 2
+    }
+  ]
+}

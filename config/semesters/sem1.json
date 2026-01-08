@@ -1,0 +1,35 @@
+{
+    "sem_name":"sem1",
+    "courses":[
+        {
+            "code":"MA1014",
+            "name":"Mathematics",
+            "credits":3
+        },
+        {
+            "code":"CS1033",
+            "name":"Comp Sci",
+            "credits":3
+        },
+        {
+            "code":"EE1040",
+            "name":"Fundamentals of Electrical Eng",
+            "credits":2
+        },
+        {
+            "code":"ME1033",
+            "name":"Mechanical Engineering",
+            "credits":2
+        },
+        {
+            "code":"CE1023",
+            "name":"Fluid mechanics",
+            "credits":2
+        },
+        {
+            "code":"MT1023",
+            "name":"Properties of materials",
+            "credits":2
+        }
+    ]
+}

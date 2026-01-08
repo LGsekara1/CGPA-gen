@@ -1,0 +1,50 @@
+{
+  "sem_name": "sem2",
+  "courses": [
+    {
+      "code": "BM1190",
+      "name": "BDP",
+      "credits": 3
+    },
+    {
+      "code": "EN1190",
+      "name": "EDP",
+      "credits": 3
+    },
+    {
+      "code": "EL1030",
+      "name": "ENGLISH",
+      "credits": 2
+    },
+    {
+      "code": "EN1014",
+      "name": "TRONIC",
+      "credits": 4
+    },
+    {
+      "code": "EN1020",
+      "name": "SIGNALS",
+      "credits": 3
+    },
+    {
+      "code": "EN1054",
+      "name": "TELECOM",
+      "credits": 4
+    },
+    {
+      "code": "EN1094",
+      "name": "LABS",
+      "credits": 3
+    },
+    {
+      "code": "EN1971",
+      "name": "COMSKILLS",
+      "credits": 3
+    },
+    {
+      "code": "MA1024",
+      "name": "MATHS",
+      "credits": 3
+    }
+  ]
+}
