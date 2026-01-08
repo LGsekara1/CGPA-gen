@@ -20,6 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 STUDENTS_FILE = BASE_DIR/"data"/"student_details.json"
 GRADES_FILE = BASE_DIR/"config"/"grades.json"
+CORRECTIONS_FILE = BASE_DIR/"config"/"corrections.json"
 SEMESTER_CONFIG_DIR = BASE_DIR/"config"/"semesters"
 RESULTS_FOLDER = BASE_DIR/"data"/"results"  # Folder containing PDF files
 OUTPUT_FOLDER = BASE_DIR/"output/"
@@ -35,6 +36,16 @@ GRADES = {}
 def load_grades(filepath):
     """Load grades from JSON file"""
     print(f"# Loading grades from '{filepath}'...")
+    with open(filepath, 'r') as f:
+        return json.load(f)
+
+def load_corrections(filepath):
+    """Load grade corrections from JSON file"""
+    if not os.path.exists(filepath):
+        print(f"# No corrections file found at '{filepath}'. Skipping.")
+        return {}
+        
+    print(f"# Loading corrections from '{filepath}'...")
     with open(filepath, 'r') as f:
         return json.load(f)
 
@@ -126,8 +137,12 @@ def extract_results_from_pdf(pdf_path, valid_indices):
                 # Check if tbl keys are integers (header=None produces int cols)
                 if 0 in tbl.columns and 1 in tbl.columns:
                     # Convert to list ignoring the first header row if it was scraped as data
-                    idxs = tbl[0].tolist()
-                    grades = tbl[1].tolist()
+                    if pdf_path.name in ["EN1020.pdf", "EN1971.pdf"]:
+                        idxs = tbl[1].tolist()
+                        grades = tbl[6].tolist()
+                    else:
+                        idxs = tbl[0].tolist()
+                        grades = tbl[1].tolist()
                     pairs = list(zip(idxs, grades))
                     index_grade_pairs.extend(pairs)
             except Exception as e:
@@ -151,7 +166,7 @@ def extract_results_from_pdf(pdf_path, valid_indices):
     
     return valid_results
 
-def load_all_module_results(semester_config, course_info):
+def load_all_module_results(semester_config, course_info, corrections=None):
     """
     Load results for all modules in the semester
     Returns: (results_dict, available_modules, module_stats)
@@ -192,6 +207,34 @@ def load_all_module_results(semester_config, course_info):
                     module_stats[module_code]["grade_counts"].get(grade, 0) + 1
         else:
             print(f"  ! Warning: '{pdf_path}' not found. Skipping module {module_code}.")
+            
+    # Apply corrections if available
+    if corrections:
+        print("\n# Applying manual corrections...")
+        for module_code, module_corrections in corrections.items():
+            if module_code in module_stats:
+                for idx_str, new_grade in module_corrections.items():
+                    try:
+                        idx = int(idx_str)
+                        if idx in valid_indices:
+                            # Update result
+                            if idx not in results:
+                                results[idx] = {}
+                            
+                            old_grade = results[idx].get(module_code, "N/A")
+                            results[idx][module_code] = new_grade
+                            print(f"  - Corrected {idx} in {module_code}: {old_grade} -> {new_grade}")
+                            
+                            # Adjust stats (simple approach: decrement old, increment new)
+                            # Note: This might be slightly inaccurate if we didn't count the old grade originally
+                            # but ensures the new grade is counted.
+                            if old_grade in module_stats[module_code]["grade_counts"]:
+                                module_stats[module_code]["grade_counts"][old_grade] -= 1
+                            
+                            module_stats[module_code]["grade_counts"][new_grade] = \
+                                module_stats[module_code]["grade_counts"].get(new_grade, 0) + 1
+                    except ValueError:
+                        continue
     
     return results, available_modules, module_stats
 
@@ -472,6 +515,8 @@ def main():
     global GRADES
     GRADES = load_grades(GRADES_FILE)
     
+    corrections = load_corrections(CORRECTIONS_FILE)
+    
     students_db = load_students(STUDENTS_FILE)
     
     semester_config_path = select_semester_config()
@@ -497,7 +542,7 @@ def main():
     
     # Load results from PDFs
     results, available_modules, module_stats = load_all_module_results(
-        semester_config, course_info
+        semester_config, course_info, corrections
     )
     
     print(f"\n[OK] Found results for {len(available_modules)} modules")
