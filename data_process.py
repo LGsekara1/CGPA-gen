@@ -33,7 +33,7 @@ with open(src2dataPath,"r") as f:
         BME_DATA[idx] = f"{sname} {iname}"
 
 
-print(BME_DATA.keys())
+#print(BME_DATA.keys())
 # print("-----")
 # print(DATA.keys())
 #print(DATA)

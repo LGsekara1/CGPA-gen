@@ -50,6 +50,11 @@
       "code": "MA3024",
       "name": "NM",
       "credits": 2
+    },
+    {
+      "code":"EN2031",
+      "name":"FCOD",
+      "credits":3
     }
   ]
 }
