@@ -502,23 +502,137 @@ def export_to_excel(sorted_students, students_db, available_modules, module_stat
     print(f"  [OK] Created '{filename2}'")
 
 # ============================================================================
-# MAIN EXECUTION
+# CGPA CALCULATION FUNCTIONS
 # ============================================================================
 
-def main():
-    print("=" * 70)
-    print("University GPA Analysis System (v5.00)")
-    print("=" * 70)
+def process_semester_for_cgpa(semester_config_path, student_indices, students_db, corrections):
+    """
+    Process a single semester for CGPA calculation.
+    Returns: (semester_name, semester_results_per_student)
+    semester_results_per_student = {student_idx: {'sgpa': float, 'credits': int, 'weighted_points': float}}
+    """
+    semester_config = load_semester_config(semester_config_path)
+    semester_name = semester_config.get("semester_name", "Unknown")
     
-    # Load configuration
+    print(f"\n# Processing {semester_name}...")
+    
+    course_info = {"index_range": (0, 0), "students": students_db} # Range not strictly needed here
+    
+    # Load results
+    results, available_modules, module_stats = load_all_module_results(
+        semester_config, course_info, corrections
+    )
+    
+    processed_data = {}
+    
+    for idx in student_indices:
+        student_results = results.get(idx, {})
+        
+        # Calculate SGPA variables
+        total_credits = 0
+        weighted_sum = 0
+        
+        for module_code, grade in student_results.items():
+            if module_code in module_stats and grade in GRADES:
+                credits = module_stats[module_code]["credits"]
+                gpa_value = GRADES[grade]["gpa_4_0"] # Using 4.0 scale for calculation
+                
+                weighted_sum += credits * gpa_value
+                total_credits += credits
+        
+        sgpa = 0.0
+        if total_credits > 0:
+            sgpa = round(weighted_sum / total_credits, 2)
+            
+        processed_data[idx] = {
+            "sgpa": sgpa,
+            "credits": total_credits,
+            "weighted_points": weighted_sum
+        }
+        
+    return semester_name, processed_data
 
-    global GRADES
-    GRADES = load_grades(GRADES_FILE)
+def calculate_cgpa_flow(students_db, corrections):
+    """Execute CGPA calculation flow"""
+    print("\n" + "=" * 40)
+    print("      CGPA CALCULATION MODE")
+    print("=" * 40)
     
-    corrections = load_corrections(CORRECTIONS_FILE)
+    config_files = get_semester_config_files()
+    if not config_files:
+        print("! Error: No semester configurations found.")
+        return
+
+    student_indices = list(students_db.keys())
     
-    students_db = load_students(STUDENTS_FILE)
+    # Data structure: {student_idx: {'semesters': {sem_name: sgpa}, 'total_credits': 0, 'total_points': 0}}
+    cgpa_data = {idx: {'semesters': {}, 'total_credits': 0, 'total_points': 0} for idx in student_indices}
+    semester_names = []
     
+    # Process each semester
+    for config_file in config_files:
+        sem_name, sem_results = process_semester_for_cgpa(config_file, student_indices, students_db, corrections)
+        semester_names.append(sem_name)
+        
+        for idx, data in sem_results.items():
+            if idx in cgpa_data:
+                cgpa_data[idx]['semesters'][sem_name] = data['sgpa']
+                cgpa_data[idx]['total_credits'] += data['credits']
+                cgpa_data[idx]['total_points'] += data['weighted_points']
+    
+    # Calculate Final CGPA
+    final_results = []
+    
+    print("\n# Calculating Final CGPA...")
+    for idx, data in cgpa_data.items():
+        total_credits = data['total_credits']
+        total_points = data['total_points']
+        
+        cgpa = 0.0
+        if total_credits > 0:
+            cgpa = round(total_points / total_credits, 2)
+            
+        final_results.append({
+            "idx": idx,
+            "name": students_db.get(idx, {}).get("name", "Unknown"),
+            "semesters": data['semesters'],
+            "cgpa": cgpa
+        })
+        
+    # Sort by CGPA descending
+    final_results.sort(key=lambda x: x['cgpa'], reverse=True)
+    
+    # Assign Ranks
+    print("\n# Exporting CGPA Results...")
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+    filename = OUTPUT_FOLDER / "CGPA_Results.xlsx"
+    workbook = xlsxwriter.Workbook(filename)
+    ws = workbook.add_worksheet("CGPA")
+    
+    # Headers
+    headers = ["Rank", "Index", "Name"] + semester_names + ["CGPA"]
+    for i, h in enumerate(headers):
+        ws.write(0, i, h)
+        
+    # Data
+    for rank, student in enumerate(final_results, start=1):
+        row = rank
+        ws.write(row, 0, rank)
+        ws.write(row, 1, student['idx'])
+        ws.write(row, 2, student['name'])
+        
+        col = 3
+        for sem in semester_names:
+            ws.write(row, col, student['semesters'].get(sem, 0.0))
+            col += 1
+            
+        ws.write(row, col, student['cgpa'])
+        
+    workbook.close()
+    print(f"  [OK] Created '{filename}'")
+
+def calculate_sgpa_flow(students_db, corrections):
+    """Execute standard SGPA calculation flow"""
     semester_config_path = select_semester_config()
     if not semester_config_path:
         return
@@ -527,10 +641,6 @@ def main():
     
     # Calculate index range from students_db
     student_indices = list(students_db.keys())
-    if not student_indices:
-        print("! Error: No valid students found in database.")
-        return
-        
     min_idx = min(student_indices)
     max_idx = max(student_indices)
     course_info = {"index_range": (min_idx, max_idx), "students": students_db}
@@ -560,10 +670,44 @@ def main():
         semester_config,
         "Results"
     )
-    
-    print("\n" + "=" * 70)
-    print("[OK] Finished successfully!")
+
+# ============================================================================
+# MAIN EXECUTION
+# ============================================================================
+
+def main():
     print("=" * 70)
+    print("University GPA Analysis System (v5.00)")
+    print("=" * 70)
+    
+    # Load configuration
+    global GRADES
+    GRADES = load_grades(GRADES_FILE)
+    
+    corrections = load_corrections(CORRECTIONS_FILE)
+    students_db = load_students(STUDENTS_FILE)
+    
+    if not students_db:
+        print("! Error: No valid students found in database.")
+        return
+
+    while True:
+        print("\nSelect Mode:")
+        print("  1. Calculate SGPA (Single Semester)")
+        print("  2. Calculate CGPA (All Semesters)")
+        print("  q. Quit")
+        
+        choice = input("\nEnter choice (1/2/q): ").strip().lower()
+        
+        if choice == '1':
+            calculate_sgpa_flow(students_db, corrections)
+        elif choice == '2':
+            calculate_cgpa_flow(students_db, corrections)
+        elif choice == 'q':
+            print("Exiting...")
+            break
+        else:
+            print("Invalid choice.")
 
 if __name__ == "__main__":
     main()
