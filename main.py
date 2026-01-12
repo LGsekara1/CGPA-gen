@@ -280,7 +280,9 @@ def load_all_module_results(semester_config, course_info, corrections=None):
             if module_code in module_stats:
                 for idx_str, new_grade in module_corrections.items():
                     try:
+                        #print(f"Index with corrections:{idx_str}")
                         idx = int(idx_str)
+                        print(idx)
                         if idx in valid_indices:
                             # Update result
                             if idx not in results:
