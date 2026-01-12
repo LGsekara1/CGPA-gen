@@ -261,7 +261,7 @@ def calculate_gpa(student_results, module_stats, scale="4_0"):
     if total_credits == 0:
         return 0.0
     
-    return round(weighted_sum / total_credits, 2)
+    return round(weighted_sum / total_credits, 4)
 
 def calculate_max_possible_gpa(student_results, module_stats, semester_config):
     """
@@ -287,7 +287,7 @@ def calculate_max_possible_gpa(student_results, module_stats, semester_config):
     if total_credits == 0:
         return 0.0
     
-    return round(max_sum / total_credits, 2)
+    return round(max_sum / total_credits, 4)
 
 # ============================================================================
 # RANKING AND SORTING
@@ -542,7 +542,7 @@ def process_semester_for_cgpa(semester_config_path, student_indices, students_db
         
         sgpa = 0.0
         if total_credits > 0:
-            sgpa = round(weighted_sum / total_credits, 2)
+            sgpa = round(weighted_sum / total_credits, 4)
             
         processed_data[idx] = {
             "sgpa": sgpa,
@@ -590,7 +590,7 @@ def calculate_cgpa_flow(students_db, corrections):
         
         cgpa = 0.0
         if total_credits > 0:
-            cgpa = round(total_points / total_credits, 2)
+            cgpa = round(total_points / total_credits, 4)
             
         final_results.append({
             "idx": idx,

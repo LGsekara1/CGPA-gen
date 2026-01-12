@@ -55,6 +55,11 @@
       "code":"EN2031",
       "name":"FCOD",
       "credits":3
+    },
+    {
+      "code":"MA3014",
+      "name":"Applied Stat",
+      "credits":2
     }
   ]
 }
