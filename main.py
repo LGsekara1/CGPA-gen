@@ -123,48 +123,113 @@ def load_semester_config(filepath):
 
 def extract_results_from_pdf(pdf_path, valid_indices):
     """
-    Extract index and grade pairs from a PDF file
+    Extract index and grade pairs from a PDF file using robust column detection.
+    Supports multi-column layouts where multiple Index/Grade pairs exist in a single row.
     Returns: list of tuples [(index, grade), ...]
     """
     print(f"  - Processing '{pdf_path}'...")
     
-    grade_tables = tabula.read_pdf(pdf_path, pages="all", pandas_options={'header': None})
+    # Use stream=True which works better for the observed PDF formats
+    grade_tables = tabula.read_pdf(pdf_path, pages="all", stream=True, pandas_options={'header': None})
     index_grade_pairs = []
     
     for tbl in grade_tables:
-        if not tbl.empty and len(tbl.columns) > 1:
-            try:
-                # Check if tbl keys are integers (header=None produces int cols)
-                if 0 in tbl.columns and 1 in tbl.columns:
-                    # Convert to list ignoring the first header row if it was scraped as data
-                    if pdf_path.name in ["EN1020.pdf", "EN1971.pdf"]:
-                        idxs = tbl[1].tolist()
-                        grades = tbl[6].tolist()
-                    else:
-                        idxs = tbl[0].tolist()
-                        grades = tbl[1].tolist()
-                    pairs = list(zip(idxs, grades))
-                    index_grade_pairs.extend(pairs)
-            except Exception as e:
-                print(f"DEBUG: Error extracting from table: {e}")
-    
-    # Filter valid entries against student database
-    valid_results = []
-    for idx_str, grade in index_grade_pairs:
-        if str(idx_str) != "nan" and str(idx_str).strip() != "Index No.":
-            try:
-                # Extract digits only (handle '230012U', '230012/U', etc.)
-                clean_idx_str = re.sub(r'\D', '', str(idx_str))
-                if not clean_idx_str:
-                    continue
+        if tbl.empty:
+            continue
+            
+        # Clean the table: drop all-NaN rows/cols if any
+        df = tbl.dropna(how='all').dropna(axis=1, how='all')
+        
+        # Reset column names to integer index to avoid confusion
+        df.columns = range(df.shape[1])
+        
+        # Heuristics to find pairs of Index and Grade columns
+        # We need to find ALL pairs, not just one.
+        
+        # 1. Start scanning from where valid data seems to begin (skip headers)
+        start_row = 0
+        for row_idx in range(min(5, len(df))):
+            row_vals = [str(x).strip().lower() for x in df.iloc[row_idx]]
+            if any("index" in x for x in row_vals) or any("grade" in x for x in row_vals):
+                start_row = row_idx + 1
+                break
+        
+        valid_rows_for_analysis = df.iloc[start_row:].head(20)
+        
+        # Identify columns by type: 'index', 'grade', or 'unknown'
+        col_types = {}
+        
+        for col_idx in df.columns:
+            col_data = valid_rows_for_analysis[col_idx].astype(str).tolist()
+            
+            grade_matches = 0
+            index_matches = 0
+            
+            for cell in col_data:
+                cell = cell.strip()
+                if not cell or cell.lower() == "nan": continue
+                
+                # Check for Index pattern anywhere in string
+                if re.search(r'\d{6}[A-Z]?', cell):
+                    index_matches += 1
+                
+                # Check for Grade
+                if cell in GRADES or cell in ["F", "I-we", "I-ca", "ab"]:
+                     grade_matches += 1
+            
+            # Determine type based on dominance
+            if index_matches > 0 and index_matches >= len(col_data) * 0.3:
+                col_types[col_idx] = 'index'
+            elif grade_matches > 0 and grade_matches >= len(col_data) * 0.3:
+                col_types[col_idx] = 'grade'
+            else:
+                col_types[col_idx] = 'unknown'
+
+        # Pairing strategy:
+        # Sort columns left-to-right. For each 'index' column, pair it with the 
+        # nearest 'grade' column to its right that hasn't been used.
+        
+        used_cols = set()
+        sorted_cols = sorted(col_types.keys())
+        
+        for i, idx_col in enumerate(sorted_cols):
+            if col_types[idx_col] == 'index' and idx_col not in used_cols:
+                # Look for nearest grade col to the right
+                grade_col = -1
+                
+                for j in range(i + 1, len(sorted_cols)):
+                    candidate_col = sorted_cols[j]
+                    if col_types[candidate_col] == 'grade' and candidate_col not in used_cols:
+                        grade_col = candidate_col
+                        break
+                
+                if grade_col != -1:
+                    # Found a pair
+                    used_cols.add(idx_col)
+                    used_cols.add(grade_col)
                     
-                idx = int(clean_idx_str)
-                if idx in valid_indices:
-                    valid_results.append((idx, grade))
-            except ValueError:
-                continue
-    
-    return valid_results
+                    # Extract from this pair
+                    subset = df.iloc[start_row:, [idx_col, grade_col]].values
+                    
+                    for row_dat in subset:
+                        idx_raw = str(row_dat[0]).strip()
+                        grade = str(row_dat[1]).strip()
+                        
+                        if not idx_raw: continue
+
+                        try:
+                            # Extract numeric part from anywhere in the string
+                            numeric_part_match = re.search(r'(\d{6})', idx_raw)
+                            if numeric_part_match:
+                                idx_int = int(numeric_part_match.group(1))
+                                
+                                if idx_int in valid_indices:
+                                    if grade and grade.lower() != "nan":
+                                        index_grade_pairs.append((idx_int, grade))
+                        except ValueError:
+                            continue
+
+    return index_grade_pairs
 
 def load_all_module_results(semester_config, course_info, corrections=None):
     """
@@ -437,6 +502,7 @@ def export_to_excel(sorted_students, students_db, available_modules, module_stat
     
     workbook1.close()
     print(f"  [OK] Created '{filename1}'")
+    
     
 
     
