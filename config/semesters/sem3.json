@@ -60,6 +60,14 @@
       "code":"MA3014",
       "name":"Applied Stat",
       "credits":2
-    }
+    },
+    {
+      "code":"EL2410",
+    "name":"Introduction to Literary Criticism",
+    "credits":3,
+    "__comment":"Module name misprinted as Academic writing in results sheet"
+    
+
+  }
   ]
 }
