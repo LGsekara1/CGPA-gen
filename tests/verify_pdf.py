@@ -35,7 +35,7 @@ print(f"Loaded {len(valid_indices)} valid students from DB.")
 
 # Test files
 # Test files
-files = ["EN1054.pdf", "EN1971.pdf"]
+files = ["EN1020.pdf"]
 base_dir = parent_dir / "data" / "results" / "sem2"
 
 for f in files:
@@ -45,6 +45,7 @@ for f in files:
         results = extract_results_from_pdf(path, valid_indices)
         print(f"Extracted {len(results)} records.")
         if len(results) > 0:
-            print(f"Sample: {results[:3]}")
+            for result in results:
+                print(f"Index:{result[0]} | Grade:{result[1]}")
     except Exception as e:
         print(f"Error: {e}")
