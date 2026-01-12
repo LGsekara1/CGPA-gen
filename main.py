@@ -11,6 +11,7 @@ import tabula
 import os.path
 import re
 import xlsxwriter
+import math
 
 # ============================================================================
 # CONFIGURATION
@@ -308,6 +309,9 @@ def load_all_module_results(semester_config, course_info, corrections=None):
 # ============================================================================
 # GPA CALCULATION FUNCTIONS
 # ============================================================================
+def truncate(num, decimals=0):
+    factor = 10 ** decimals
+    return int(num * factor) / factor
 
 def calculate_gpa(student_results, module_stats, scale="4_0"):
     """
@@ -328,7 +332,8 @@ def calculate_gpa(student_results, module_stats, scale="4_0"):
     if total_credits == 0:
         return 0.0
     
-    return round(weighted_sum / total_credits, 3)
+
+    return truncate(weighted_sum / total_credits, 3)
 
 def calculate_max_possible_gpa(student_results, module_stats, semester_config):
     """
@@ -354,7 +359,7 @@ def calculate_max_possible_gpa(student_results, module_stats, semester_config):
     if total_credits == 0:
         return 0.0
     
-    return round(max_sum / total_credits, 3)
+    return truncate(max_sum / total_credits, 3)
 
 # ============================================================================
 # RANKING AND SORTING
@@ -610,7 +615,7 @@ def process_semester_for_cgpa(semester_config_path, student_indices, students_db
         
         sgpa = 0.0
         if total_credits > 0:
-            sgpa = round(weighted_sum / total_credits, 3)
+            sgpa = truncate(weighted_sum / total_credits, 3)
             
         processed_data[idx] = {
             "sgpa": sgpa,
@@ -658,7 +663,7 @@ def calculate_cgpa_flow(students_db, corrections):
         
         cgpa = 0.0
         if total_credits > 0:
-            cgpa = round(total_points / total_credits, 3)
+            cgpa = truncate(total_points / total_credits, 3)
             
         final_results.append({
             "idx": idx,
