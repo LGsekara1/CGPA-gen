@@ -102,7 +102,6 @@ def main_cli():
         if grade in main.GRADES:
              gpa_val = main.GRADES[grade]["gpa_4_0"]
         else:
-             # If grade is not in GRADES (e.g. "I-we"), it might have 0 value or be ignored in main GPA calc?
              # main.py calculate_gpa checks `if grade in GRADES`.
              # If not in GRADES, it skips contributing to sum and credits.
              # Wait, main.py lines 324-330:
