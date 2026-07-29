@@ -50,6 +50,16 @@
       "code": "MN3021",
       "name": "Entrepreuneurship Business Basics",
       "credits": 3
+    },
+    {
+      "code": "BM2102",
+      "name": "Modelling and Analysis of Physiological Systems",
+      "credits": 3
+    },
+    {
+      "code": "BM2012",
+      "name": "Anatomy and Physiology for Engineers",
+      "credits": 4
     }
   ]
 }

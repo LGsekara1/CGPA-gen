@@ -30,7 +30,7 @@ def main_cli():
     else:
         print("\n--- SGPA Calculator ---")
         student_idx_input = input("Enter Student Index (e.g. 230012): ").strip()
-        semester_input = input("Enter Semester (e.g. 1, 2): ").strip()
+        semester_input = input("Enter Semester (e.g. 1, 2, 3, 4): ").strip()
 
     try:
         student_idx = int(student_idx_input)

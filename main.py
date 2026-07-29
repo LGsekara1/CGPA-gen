@@ -651,7 +651,7 @@ def process_semester_for_cgpa(semester_config_path, student_indices, students_db
             sgpa = truncate(weighted_sum / total_credits, 3)
             
         processed_data[idx] = {
-            "sgpa": sgpa,
+            "sgpa": truncate(weighted_sum / total_credits, 3) if total_credits > 0 else 0.0,
             "credits": total_credits,
             "weighted_points": weighted_sum
         }
@@ -674,7 +674,9 @@ def calculate_cgpa_flow(students_db, corrections):
     # Data structure: {student_idx: {'semesters': {sem_name: sgpa}, 'total_credits': 0, 'total_points': 0}}
     cgpa_data = {
     idx: {
-        'semesters': {}
+        'semesters': {},
+        'total_credits': 0,
+        'total_points': 0.0
     }
     for idx in student_indices
 }
@@ -688,17 +690,22 @@ def calculate_cgpa_flow(students_db, corrections):
         for idx, data in sem_results.items():
             if idx in cgpa_data:
                 cgpa_data[idx]['semesters'][sem_name] = data['sgpa']
-                
+                cgpa_data[idx]['total_credits'] += data['credits']
+                cgpa_data[idx]['total_points'] += data['weighted_points']
+                        
     
     # Calculate Final CGPA
     final_results = []
     
     print("\n# Calculating Final CGPA...")
-    for idx, data in cgpa_data.items():
-        semester_sgpas = list(data['semesters'].values())
 
-        if semester_sgpas:
-            cgpa = truncate(sum(semester_sgpas) / len(semester_sgpas), 3)
+    for idx, data in cgpa_data.items():
+
+        if data['total_credits'] > 0:
+            cgpa = truncate(
+                data['total_points'] / data['total_credits'],
+                3
+            )
         else:
             cgpa = 0.0
 
@@ -708,9 +715,8 @@ def calculate_cgpa_flow(students_db, corrections):
             "semesters": data['semesters'],
             "cgpa": cgpa
         })
-        
-    # Sort by CGPA descending
-    final_results.sort(key=lambda x: x['cgpa'], reverse=True)
+        # Sort by CGPA descending
+        final_results.sort(key=lambda x: x['cgpa'], reverse=True)
     
     # Assign Ranks
     print("\n# Exporting CGPA Results...")
