@@ -1,0 +1,55 @@
+{
+  "sem_name": "sem4",
+  "courses": [
+    {
+      "code": "EN2074",
+      "name": "Communication Systems Eng",
+      "credits": 4
+    },
+    {
+      "code": "EN2111",
+      "name": "Electronic Circuit Design",
+      "credits": 4
+    },
+    {
+      "code": "EN2143",
+      "name": "Electronic Control Systems",
+      "credits": 3
+    },
+    {
+      "code": "EN2150",
+      "name": "Communication Network Engineering",
+      "credits": 3
+    },
+    {
+      "code": "MA2034",
+      "name": "Linear Algebra",
+      "credits": 2
+    },
+    {
+      "code": "MA3014",
+      "name": "Applied Stat",
+      "credits": 2
+    },
+    {
+      "code": "CS2833",
+      "name": "Modular Software Development",
+      "credits": 3
+    },
+    {
+      "code": "CS2023",
+      "name": "Data Structures and Algorithms",
+      "credits": 3
+    },
+    {
+      "code": "EN2160",
+      "name": "Electronic Design Realization",
+      "credits": 3
+    },
+    {
+      "code": "MN3021",
+      "name": "Entrepreuneurship Business Basics",
+      "credits": 3
+    }
+  ]
+}

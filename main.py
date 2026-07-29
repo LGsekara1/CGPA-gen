@@ -240,70 +240,103 @@ def load_all_module_results(semester_config, course_info, corrections=None):
     results = {}
     available_modules = []
     module_stats = {}
-    
+
     valid_indices = set(course_info["students"].keys())
-    
+
     print("\n# Extracting results from PDFs...")
-    
+
     semester_name = semester_config.get("semester_name", "")
-    
+
     for module_code, module_info in semester_config["modules"].items():
-        # Look for PDF in results/semester_name/module_code.pdf
-        # If semester_name is empty or not found, try root results folder or handle as needed.
-        # Assuming structure data/results/sem1/CODE.pdf
+
+        # ---------------------------------------------------------
+        # Create module entry regardless of whether a PDF exists
+        # ---------------------------------------------------------
+        module_stats[module_code] = {
+            "credits": module_info["credits"],
+            "grade_counts": {}
+        }
+
         pdf_path = RESULTS_FOLDER / semester_name / f"{module_code}.pdf"
-        
-        if os.path.isfile(pdf_path):
+
+        pdf_exists = os.path.isfile(pdf_path)
+        has_manual_data = (
+            corrections is not None and
+            module_code in corrections and
+            len(corrections[module_code]) > 0
+        )
+
+        # Show this module in outputs if it has either a PDF
+        # or manually entered grades.
+        if pdf_exists or has_manual_data:
             available_modules.append(module_code)
-            module_stats[module_code] = {
-                "credits": module_info["credits"],
-                "grade_counts": {}
-            }
-            
-            # Extract results from PDF
-            module_results = extract_results_from_pdf(pdf_path, valid_indices)
-            
+
+        if pdf_exists:
+            try:
+                module_results = extract_results_from_pdf(pdf_path, valid_indices)
+            except Exception as exc:
+                print(f"    ! Failed to process '{pdf_path}': {exc}")
+                module_results = []
+
             for idx, grade in module_results:
                 if idx not in results:
                     results[idx] = {}
+
                 results[idx][module_code] = grade
-                
-                # Update grade statistics
+
                 module_stats[module_code]["grade_counts"][grade] = \
                     module_stats[module_code]["grade_counts"].get(grade, 0) + 1
+
         else:
-            print(f"  ! Warning: '{pdf_path}' not found. Skipping module {module_code}.")
-            
-    # Apply corrections if available
+            print(f"  ! Warning: '{pdf_path}' not found.")
+
+            if has_manual_data:
+                print(f"    -> Using manual corrections for {module_code}")
+
+    # ---------------------------------------------------------
+    # Apply manual corrections
+    # ---------------------------------------------------------
     if corrections:
         print("\n# Applying manual corrections...")
+
         for module_code, module_corrections in corrections.items():
-            if module_code in module_stats:
-                for idx_str, new_grade in module_corrections.items():
-                    try:
-                        #print(f"Index with corrections:{idx_str}")
-                        idx = int(idx_str)
-                        print(idx)
-                        if idx in valid_indices:
-                            # Update result
-                            if idx not in results:
-                                results[idx] = {}
-                            
-                            old_grade = results[idx].get(module_code, "N/A")
-                            results[idx][module_code] = new_grade
-                            print(f"  - Corrected {idx} in {module_code}: {old_grade} -> {new_grade}")
-                            
-                            # Adjust stats (simple approach: decrement old, increment new)
-                            # Note: This might be slightly inaccurate if we didn't count the old grade originally
-                            # but ensures the new grade is counted.
-                            if old_grade in module_stats[module_code]["grade_counts"]:
-                                module_stats[module_code]["grade_counts"][old_grade] -= 1
-                            
-                            module_stats[module_code]["grade_counts"][new_grade] = \
-                                module_stats[module_code]["grade_counts"].get(new_grade, 0) + 1
-                    except ValueError:
-                        continue
-    
+
+            # Ignore corrections for modules not in semester config
+            if module_code not in module_stats:
+                print(f"  ! Warning: {module_code} exists in corrections.json but not in semester config.")
+                continue
+
+            for idx_str, new_grade in module_corrections.items():
+
+                try:
+                    idx = int(idx_str)
+                except ValueError:
+                    continue
+
+                if idx not in valid_indices:
+                    continue
+
+                if idx not in results:
+                    results[idx] = {}
+
+                old_grade = results[idx].get(module_code)
+
+                # Remove old grade from statistics
+                if old_grade is not None:
+                    if old_grade in module_stats[module_code]["grade_counts"]:
+                        module_stats[module_code]["grade_counts"][old_grade] -= 1
+
+                        if module_stats[module_code]["grade_counts"][old_grade] <= 0:
+                            del module_stats[module_code]["grade_counts"][old_grade]
+
+                # Apply new grade
+                results[idx][module_code] = new_grade
+
+                module_stats[module_code]["grade_counts"][new_grade] = \
+                    module_stats[module_code]["grade_counts"].get(new_grade, 0) + 1
+
+                print(f"  - {module_code}: {idx} -> {new_grade}")
+
     return results, available_modules, module_stats
 
 # ============================================================================
@@ -639,7 +672,12 @@ def calculate_cgpa_flow(students_db, corrections):
     student_indices = list(students_db.keys())
     
     # Data structure: {student_idx: {'semesters': {sem_name: sgpa}, 'total_credits': 0, 'total_points': 0}}
-    cgpa_data = {idx: {'semesters': {}, 'total_credits': 0, 'total_points': 0} for idx in student_indices}
+    cgpa_data = {
+    idx: {
+        'semesters': {}
+    }
+    for idx in student_indices
+}
     semester_names = []
     
     # Process each semester
@@ -650,21 +688,20 @@ def calculate_cgpa_flow(students_db, corrections):
         for idx, data in sem_results.items():
             if idx in cgpa_data:
                 cgpa_data[idx]['semesters'][sem_name] = data['sgpa']
-                cgpa_data[idx]['total_credits'] += data['credits']
-                cgpa_data[idx]['total_points'] += data['weighted_points']
+                
     
     # Calculate Final CGPA
     final_results = []
     
     print("\n# Calculating Final CGPA...")
     for idx, data in cgpa_data.items():
-        total_credits = data['total_credits']
-        total_points = data['total_points']
-        
-        cgpa = 0.0
-        if total_credits > 0:
-            cgpa = truncate(total_points / total_credits, 3)
-            
+        semester_sgpas = list(data['semesters'].values())
+
+        if semester_sgpas:
+            cgpa = truncate(sum(semester_sgpas) / len(semester_sgpas), 3)
+        else:
+            cgpa = 0.0
+
         final_results.append({
             "idx": idx,
             "name": students_db.get(idx, {}).get("name", "Unknown"),
