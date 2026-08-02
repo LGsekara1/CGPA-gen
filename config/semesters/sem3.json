@@ -68,6 +68,11 @@
     "__comment":"Module name misprinted as Academic writing in results sheet"
     
 
+  },
+  {
+    "code":"EL2520",
+    "name":"Technical Report Writing for Engineerin Studies",
+    "credits":3
   }
   ]
 }
