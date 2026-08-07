@@ -60,6 +60,11 @@
       "code": "BM2012",
       "name": "Anatomy and Physiology for Engineers",
       "credits": 4
+    },
+    {
+      "code": "MA2054",
+      "name": "Graph Theory",
+      "credits": 2
     }
   ]
 }
