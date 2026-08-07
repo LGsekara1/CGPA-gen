@@ -65,6 +65,11 @@
       "code": "MA2054",
       "name": "Graph Theory",
       "credits": 2
+    },
+    {
+      "code" :"EL2420",
+      "name" :"Introduction to Poetry and Drama",
+      "credits" : 3
     }
   ]
 }
